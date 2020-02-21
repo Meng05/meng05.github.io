@@ -10,3 +10,9 @@ categories:
 ---
 
 Hi! Welcome to my personal website!
+## Head1
+### Head1.1
+### Head1.2
+
+## Head2
+### Head2.1
