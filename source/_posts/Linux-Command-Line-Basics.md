@@ -83,7 +83,9 @@ find /logs -type f -mtime +5 -exec rm {  } \;
 #在当前目录中查找所有文件名以.LOG结尾、更改时间在5日以上的文件，并删除它们，只不过在删除之前先给出提示.
 find . -name "*.conf"  -mtime +5 -ok rm {  } \;
 ```
+
 ### -options 
+
 -size n：[c] 查找文件长度为n块的文件，带有c时表示文件长度以字节计
 
 -depth：在查找文件时，首先查找当前目录中的文件，然后再在其子目录中查找。
@@ -95,13 +97,14 @@ find . -name "*.conf"  -mtime +5 -ok rm {  } \;
 - p 管道文件。
 - l 符号链接文件。
 - f 普通文件。
-
 ```bash
 find /etc -type d -print #在/etc目录下查找所有的目录
 find . ! -type d –print 在当前目录下查找除目录以外的所有类型的文件
 find /etc -type l –print 在/etc目录下查找所有的符号链接文件
 ```
+
 ### find 与 xargs
+
 >find命令配合使用exec和xargs可以使用户对所匹配到的文件执行几乎所有的命令。在使用find命令的-exec选项处理匹配到的文件时， find命令将所有匹配到的文件一起传递给exec执行。但有些系统对能够传递给exec的命令长度有限制，这样在find命令运行几分钟之后，就会出现溢出错误。错误信息通常是“参数列太长”或“参数列溢出”。这就是xargs命令的用处所在，特别是与find命令一起使用。find命令把匹配到的文件传递给xargs命令，而xargs命令每次只获取一部分文件而不是全部，不像-exec选项那样。这样它可以先处理最先获取的一部分文件，然后是下一批，并如此继续下去。
 
 ```bash
