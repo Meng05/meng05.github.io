@@ -66,7 +66,6 @@ expression: “-options [-print -exec -ok ...]”
  
 - -print，find命令将匹配的文件输出到标准输出
 - -exec，find命令对匹配的文件执行该参数所给出的shell命令。相应命令的形式为'command' {  } \;，注意{   }和\；之间的空格
-
 ```bash
 #删除文件大小为零的文件
 find ./ -size 0 -exec rm {} \;  
