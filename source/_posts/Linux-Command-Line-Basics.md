@@ -47,7 +47,6 @@ grep 与正则表达式
 []里无论有多少字节，仅代表一个字节，如：grep -n ‘t[ae]mp’ test.txt
 
 ## find
-### References: [linux中强大且常用命令：find、grep by 吴秦](https://www.cnblogs.com/skynet/archive/2010/12/25/1916873.html)
 
 find命令用于：在一个目录（及子目录）中搜索文件，你可以指定一些匹配条件，如按文件名、文件类型、用户甚至是时间戳查找文件。
 
@@ -114,6 +113,8 @@ find . -type f -print | xargs grep "hostname" #用grep命令在所有的普通�
 find ./ -mtime +3 -print|xargs rm -f –r #删除3天以前的所有东西 （find . -ctime +3 -exec rm -rf {} \;）
 find ./ -size 0 | xargs rm -f & #删除文件大小为零的文件
 ```
+
+### References: [linux中强大且常用命令：find、grep by 吴秦](https://www.cnblogs.com/skynet/archive/2010/12/25/1916873.html)
 
 ## Redirect
 
