@@ -9,7 +9,7 @@ categories:
 - Project
 ---
 
-This is modified version of the assignment in Object-Oriented Data Structures in C++ — Week 4 (University of Illinois).
+The out of an assignment in Object-Oriented Data Structures in C++ — Week 4 (University of Illinois) with a custom picture.
 
 {% gp 3-1 %}
 <img width="96%" src="https://i.loli.net/2020/03/25/CkObM7iRVo6gHhW.png"/>
