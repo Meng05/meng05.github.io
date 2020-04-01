@@ -1,5 +1,5 @@
 ---
-title: Mallard
+title: 野鸭（Mallard）
 date: 2020-02-03 15:33:21
 tags:
 - bird
@@ -7,7 +7,7 @@ categories:
 - Fun
 ---
 
-The mallard couple is back.
+今天看到野鸭回来了.
 
 诗经《关雎》
 
