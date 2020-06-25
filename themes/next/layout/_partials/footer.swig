@@ -43,6 +43,7 @@
 </div>
 
 {%- if theme.footer.powered.enable %}
+<!--
   <div class="powered-by">
     {{- __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}
     {%- if theme.footer.powered.version %} v{{ hexo_version }}{%- endif %}
@@ -62,6 +63,7 @@
     {{- __('footer.theme') }} – {{ next_url(next_site, 'NexT.' + theme.scheme, {class: 'theme-link'}) }}
     {%- if theme.footer.theme.version %} v{{ next_version }}{%- endif %}
   </div>
+  -->
 {%- endif %}
 
 {%- if theme.add_this_id %}
