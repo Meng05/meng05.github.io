@@ -17,7 +17,5 @@ The assignment in "Object-Oriented Data Structures in C++" — Week 4 (Universit
 left: grayscale &emsp;&emsp; middle: spotlight  &emsp;&emsp; right: illinify
 {% gp 3-1 %}
 <img width="96%" src="https://i.loli.net/2020/03/25/YfHLvQpTws1Pour.png"/>
-<img width="96%" />
-<img width="96%" />
 {% endgp %}
 left: watermark
