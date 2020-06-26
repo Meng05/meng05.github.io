@@ -25,6 +25,8 @@ import re
 
 re.search(r"r[A-Z]n", "run")
 
+<!--more-->
+
 ### 预定义字符集
 
 \d: 数字 [0-9]

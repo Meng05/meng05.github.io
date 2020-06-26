@@ -29,6 +29,7 @@ git config --global merge.conflictstyle diff3
 git config --list
 git config --global core.editor "mvim -f"
 ```
+<!--more-->
 
 ## Create A Repo
 Method1: Create a new directory and “git init” in the dir.
@@ -142,8 +143,10 @@ With a merge commit, ^ indicate the first parent; ^2  indicate the second parent
 - --soft # Move the changes to Staging Index
 - --hard #Move the changes to trash
 
-## Reference:
+## References:
 [Git Doc](https://git-scm.com/docs)
 [Udacity Course: Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
 Create a repo to track your computer's settings - https://dotfiles.github.io/
 Try tackling some Git challenges with the [Git-it app](https://github.com/jlord/git-it-electron)
+
+

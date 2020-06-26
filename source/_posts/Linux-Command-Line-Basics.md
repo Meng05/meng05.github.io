@@ -16,6 +16,8 @@ du (disk usage)
 
 –max-depth=n 如n=0不深入到子目录
 
+<!--more-->
+
 ## grep
 grep(global search regular expression(RE) and print out the line)是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。
 
