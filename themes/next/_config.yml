@@ -582,7 +582,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active: gitalk
+  active: valine
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -626,9 +626,9 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appid: # Your leancloud application appid
-  appkey: # Your leancloud application appkey
+  enable: true 
+  appid: 5fFxoQKIvr7AyyKTI1CcF8ss-MdYXbMMI # Your leancloud application appid
+  appkey: cg5q6NTeuo5HhqFYWGvtUslk # Your leancloud application appkey
   notify: false # Mail notifier
   verify: false # Verification code
   placeholder: Just go go # Comment box placeholder
@@ -649,7 +649,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: true 
+  enable: false 
   github_id: Meng05 
   repo: meng05.github.io # Repository name to store issues
   client_id: ecc8d465b3e0eb41fcf5 # GitHub Application Client ID
