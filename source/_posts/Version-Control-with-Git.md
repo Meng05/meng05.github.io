@@ -3,14 +3,11 @@ title: Version Control with Git
 date: 2020-02-16 20:42:34
 tags:
 - git
-- study note
 categories:
-- Tech
+- 技术文档
 ---
-This Note is about version control with Git.
-<!--more-->
 
-Course Link: [Udacity Course: Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
+Study note of the Course: [Udacity Course: Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
 
 ## What is version Control
 Example: Control -Z

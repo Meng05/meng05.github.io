@@ -3,13 +3,9 @@ title: Python RegEx Basics
 date: 2020-01-28 19:39:25
 tags:
 - python
-- study note
 categories:
-- Tech
+- 技术文档 
 ---
-
-这是一篇关于Python RegEx Basics的学习笔记。
-<!--more-->
 
 引入正则表达式模块
 

@@ -3,14 +3,11 @@ title: Markdown Basics
 date: 2019-07-15 09:53:58
 tags:
 - markdown
-- Study Note
 categories:
-- Tech
+- 技术文档
 mathjax: true
 type: "picture"
 ---
-这是一篇测试Markdown语法的文章.
-<!--more-->
 
 ## 一、标题
 
@@ -55,26 +52,7 @@ _斜体_
 ## 五、图片
 测试图片
 ![moon](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg)
-调整图片大小
-<img width="50%" alt="moon" src="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg">
 
-```
-![moon](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg)
-<img width="50%" alt="moon" src="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg">
-```
-多图显示
-{% gp 3-1 %}
-![moon](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg)
-![moon](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg)
-![moon](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg)
-{% endgp %}
-```
-{% gp 3-1 %}
-![moon](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg)
-![moon](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg)
-![moon](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg)
-{% endgp %}
-```
 
 ## 六、 代码行与代码块
 

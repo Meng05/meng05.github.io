@@ -4,12 +4,10 @@ date: 2020-02-17 21:14:31
 tags:
 - git
 categories:
-- Tech
-- Project
+- 技术文档
 ---
 
 As a beginner, I manually add several dotfiles to the Repo like this.
-<!--more-->
 
 ```
 # Create a Repo

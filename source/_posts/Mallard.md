@@ -1,10 +1,10 @@
 ---
-title: 野鸭（Mallard）
+title: 野鸭
 date: 2020-02-03 15:33:21
 tags:
-- bird
+- 自然
 categories:
-- Fun
+- 闲情偶记
 ---
 
 今天看到野鸭回来了.
@@ -28,10 +28,8 @@ categories:
 又有说法为本文中的野鸭（mallard），相比鱼鹰(Osprey)，其叫声更近“关关”。 这两种鸟恰好在附近公园里都出现过，从诗的意境上，似乎野鸭更适合些，鱼鹰看起来太过凶猛，虽然它们都经常成对出现。鱼鹰对应的鸟还有鸬鹚，看起来不像。
 
 {% gp 3-1 %}
-<img width="95%" src="https://i.loli.net/2020/02/24/UPnZ8VJwyufd7q5.jpg"/>
-<img width="95%" src="https://i.loli.net/2020/02/24/NiCaZ3LSkuQVgde.jpg"/>
-<img width="95%" src="https://i.loli.net/2020/02/24/UyHka2GSt8mOQwR.jpg"/>
+<img width="99%" src="https://i.loli.net/2020/02/24/UPnZ8VJwyufd7q5.jpg"/>
+<img width="99%" src="https://i.loli.net/2020/02/24/NiCaZ3LSkuQVgde.jpg"/>
+<img width="99%" src="https://i.loli.net/2020/02/24/UyHka2GSt8mOQwR.jpg"/>
 {% endgp %}
-Left: April 19, 2019 at 17:20, male
-Medium: April 19, 2019 at 17:03, female
-Right: February 3, 2020 at 12:34, pair
+L: 4/19/2019, male&emsp;&emsp;M:4/19/2019, female&emsp;&emsp;R: 2/3/2020

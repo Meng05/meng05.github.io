@@ -2,14 +2,10 @@
 title: Linux Command Line Basics
 date: 2020-01-23 19:06:46
 tags:
-- Study Note
 - linux
 categories:
-- Tech
+- 技术文档 
 ---
-
-这是一篇关于 Linux Command Line Basics学习笔记。
-<!--more-->
 
 ## 查看文件大小命令
 du (disk usage)
