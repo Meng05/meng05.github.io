@@ -137,7 +137,7 @@ override: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -152,7 +152,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -249,6 +249,18 @@ social:
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
 
+# Table of Contents in the Sidebar
+# Front-matter variable (unsupport wrap expand_all).
+toc:
+  enable: true
+  # Automatically add list number to toc.
+  number: false
+  # If true, all words will placed on next lines if header width longer then sidebar width.
+  wrap: false
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: false
+  # Maximum heading depth of generated toc.
+  max_depth: 4
 
 # ---------------------------------------------------------------
 # Post Settings
