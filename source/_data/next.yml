@@ -130,6 +130,10 @@ override: false
 
 
 
+# ---------------------------------------------------------------
+# Site Information Settings
+# See: https://theme-next.org/docs/getting-started/
+# ---------------------------------------------------------------
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
@@ -145,6 +149,11 @@ footer:
     # Change the color of icon, using Hex Code.
     color: "#ff0000"
 
+  # If not defined, `author` from Hexo `_config.yml` will be used.
+  copyright:
+
+  # Powered by Hexo & NexT
+  powered: true
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -155,6 +164,9 @@ footer:
 scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
+
+# Dark Mode
+darkmode: false
 
 
 # ---------------------------------------------------------------
@@ -202,7 +214,7 @@ sidebar:
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
-  display: hide
+  display: post
 
   # Sidebar padding in pixels.
   padding: 18
@@ -306,9 +318,9 @@ codeblock:
   highlight_theme: normal
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
-    show_result: false
+    show_result: true
     # Available values: default | flat | mac
     style:
 
