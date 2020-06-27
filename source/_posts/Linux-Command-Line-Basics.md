@@ -1,5 +1,5 @@
 ---
-title: Linux Command Line Basics
+title: Basic Linux Commands
 date: 2020-01-23 19:06:46
 tags:
 - linux
@@ -7,44 +7,43 @@ categories:
 - 技术文档 
 ---
 
-## 查看文件大小命令
-du (disk usage)
+### 1. du -- display disk usage statistics
 
--h 以K、M、G人性化的方式显示
 
--a 显示文件和目录
+```bash
+du -d 1 -h Documents # -d:depth -h:"human-readable"
+du -d 0 -h Documents
+```
 
-–max-depth=n 如n=0不深入到子目录
 
 <!--more-->
 
-## grep
-grep(global search regular expression(RE) and print out the line)是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。
+### 2. grep -- file pattern searcher
 
--r 递归查找文件的子文件，如果有的话
+grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is case sensitive.
 
--n 显示打到位置的行号
-
--i 不考虑大小写
-
--v 反向查找。显示不包含的位置。
-
-grep
 ```
-grep -rn "地图" 
+grep "Apple" fruit.txt
+grep -i "Apple" fruit.txt #-i:case insensitive
+grep -R "Apple" ~/Documents/fruit # -R: recursive
+
 ```
 
-grep 与正则表达式
+#### grep regular expression:
 
-重复字节\* 表示重复前一个字节0-无穷次
+\* 表示重复前一个字节0-无穷次
 
-任意一个字节. 表示一定有一个任意字节
+. 表示一定有一个任意字节
 
-行首与行尾^, $， 如：grep -n ‘^d’ /home/wang/test.c
+^, $， 行首与行尾
+```bash
 
-[]里无论有多少字节，仅代表一个字节，如：grep -n ‘t[ae]mp’ test.txt
+grep -n '^apple' /home/wang/test.c
+```
 
-## find
+[] 里面无论有多少字节，仅代表一个字节，如：grep -n ‘t[ae]mp’ test.txt
+
+### 3. find
 
 find命令用于：在一个目录（及子目录）中搜索文件，你可以指定一些匹配条件，如按文件名、文件类型、用户甚至是时间戳查找文件。
 
@@ -112,9 +111,8 @@ find ./ -mtime +3 -print|xargs rm -f –r #删除3天以前的所有东西 （fi
 find ./ -size 0 | xargs rm -f & #删除文件大小为零的文件
 ```
 
-### References: [linux中强大且常用命令：find、grep by 吴秦](https://www.cnblogs.com/skynet/archive/2010/12/25/1916873.html)
 
-## Redirect
+### 4. Redirect
 
 ```bash
 # Examples
@@ -129,7 +127,8 @@ $ cat result.txt | grep "Rajat Dua" | tee file2.txt | wc -l
 ```
 [References](https://www.guru99.com/linux-redirection.html)
 
-## Piping
+### 5. Piping
+
 ```
 ls -l -> temp
 sort record.txt | uniq 
@@ -138,7 +137,7 @@ ls -l | find ./ -type f -name "*.txt" -exec grep "program" {} \;
 # ?
 ```
 
-##  &&, ||, (), {}
+### 6. &&, ||, (), {}
 ```
 rm ~/Desktop/1.txt || (cd ~/Desktop/;ls -a;echo "fail")
 A=1;echo $A;{ A=2; };echo $A 
@@ -147,7 +146,7 @@ A=1;echo $A;( A=2; );echo $A
 
 [Reference](https://blog.51cto.com/151wqooo/1174066)
 
-## Special variable -, $\_ …
+### 7. Special variable -, $\_ …
 ```
 mkdir -p udacity-git-course/new-git-project && cd $_
 ```
@@ -157,3 +156,87 @@ $\_  在此之前执行的命令或者脚本的最后一个参数
 cp ~/Desktop/1.txt ~/1.txt && rm ~/Desktop/1.txt && echo "success"
 rm ~/Desktop/1.txt || echo "fail"
 ```
+
+### 8. tar
+
+#### Create tar Archive File:
+
+compress and uncompress files
+c: Create a new .tar archive file
+v: Verbosely show the .tar file progress
+f: File name type of the archive file (?)
+
+```bash
+tar -cvf all-fruit-06-26-20.tar  dir1/dir2
+```
+#### Create tar.gz tar.bz2 Archive File:
+
+To create a compressed gzip archive file we use the option as<font color=red>z</font>.  
+
+
+```bash
+# Note : tar.gz and tgz both are similar
+tar -cvzf all-fruit-06-26-20.tar.gz dir1/dir2
+tar -cvzf all-fruit-06-26-20.tar.tgz dir1/dir2
+
+# Note: tar.bz2 tar.tbz tar.tb2 are similar
+tar -cvzf all-fruit-06-26-20.tar.bz2 dir1/dir2
+```
+#### Untar tar Archive File:
+
+To untar or extract a tar file, just issue following command using option<font color=red>x</font> (extract).
+
+If you want to untar in a different directory then use option as<font color=red>-C</font>(specified directory).
+
+```
+# Untar files in Current Directory
+tar -xvf all-fruit-06-26-20.tar
+
+# Untar files in specified Directory
+tar -xvf all-fruit-06-26-20.tar -C ~/Documents/fruit
+
+# Untar files in tar.gz
+tar -xvf all-fruit-06-26-20.tar.gz
+
+# Untar files in tar.bz2
+tar -xvf all-fruit-06-26-20.tar.bz2
+```
+
+### List Content of tar Archive File:
+
+To list the contents of tar archive file, just run the following command with option <font color=red>t</font> (list content). 
+```bash
+tar -tvf all-fruit-06-26-20.tar
+tar -tvf all-fruit-06-26-20.tar.gz
+tar -tvf all-fruit-06-26-20.tar.bz2
+```
+
+### zip and unzip
+zip: to compress files into a zip archive
+unzip: to extract files from a zip archive.
+
+```
+# compress
+zip -r fruit.zip /dir1/dir2 #-r: Travel the directory structure recursively
+zip -q -r fruip.zip * # if we are in the directory
+
+# uncompress
+unzip file.zip -d destination_folder
+
+# if the source and destination directories are the same
+unzip file.zip
+```
+
+### 9. chmod
+
+### 10. 
+
+
+
+References:
+[Learn basic commands for Linux, a free and open-source operating system that you can make changes to and redistribute.](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners)
+
+[18 Tar Command Examples in Linux](https://www.tecmint.com/18-tar-command-examples-in-linux/)
+
+[linux中强大且常用命令：find、grep by 吴秦](https://www.cnblogs.com/skynet/archive/2010/12/25/1916873.html)
+
