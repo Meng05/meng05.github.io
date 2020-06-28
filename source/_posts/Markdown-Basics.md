@@ -9,55 +9,70 @@ mathjax: true
 type: "picture"
 ---
 
-## 一、标题
+## Headers
 
 ### h3
 #### h4
 ##### h5
-###### h6
 
 ```
 ### h3
 #### h4
 ##### h5
-###### h6
 ```
 
-## 二、分割线
+## Horizontal rules
 ---
 
-```
+```markdown
 ---
 ```
 
-## 三、 引用
+## Italics, Bold
 
-这里是引用
+_斜体_
+**粗体**
+~~删除线~~
 
-> 这里是引用
+```
+_斜体_
+**粗体**
+~~删除线~~
+```
 
 <!--more-->
 
-## 四、常见字体样式
+## Image  
 
-_斜体_
-**粗体**
-~~删除线~~
+```markdown
+![alt text](http://path/to/img.jpg "Title")
+<img src="http://path/to/img.jpg" alt="alt text" title="Title" />
+```
+Group Pictures:
+{% gp 3-1 %}
+<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
+<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
+<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
+{% endgp %}
+
+
+```markdown
+<% gp 3-1 %>
+<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
+<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
+<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
+<% endgp %>
 
 ```
-_斜体_
-**粗体**
-~~删除线~~
+Linking Images
+
+```markdown
+[<img width= 30% src=https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg />](https://meng05.github.io/2020/03/31/osprey-back/)
 ```
+[<img width= 30% src=https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg />](https://meng05.github.io/2020/03/31/osprey-back/)
 
-## 五、图片
-测试图片
-![moon](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg)
+## Code 
 
-
-## 六、 代码行与代码块
-
-代码块：
 ```cpp
 int i;
 for (i=1; i<=9; i++)
@@ -76,81 +91,129 @@ for (i=1; i<=9; i++)
 ```
 ````
 
-## 七、超链接
-[github](http://github.com)
-```
-[github](http://github.com)
-```
+## Lists
 
-## 八、 列表
-### 无序列表
+### unordered
+- 项目1
+  -项目1.1(缩进2空格)
+  - 项目1.2
+- 项目2
+- 项目3
+
+```markdown
 - 项目1
   -项目1.1(缩进2空格)
   - 项目1.2
 - 项目2
 - 项目3
 ```
-- 项目1
-  -项目1.1(缩进2空格)
-  - 项目1.2
-- 项目2
-- 项目3
-```
 
-### 有序列表
+### Ordered
+1. 项目1
+   1.1 项目1.1 （缩进3空格）
+   1.2 项目1.2
+2. 项目2
+3. 项目3
+
+```markdown
 1. 项目1
    1.1 项目1.1 （缩进3空格）
    1.2 项目1.2
 2. 项目2
 3. 项目3
 ```
-1. 项目1
-   1.1 项目1.1 （缩进3空格）
-   1.2 项目1.2
-2. 项目2
-3. 项目3
-```
-## 九、 表格
+## Table
 
 表头|表头|表头
 --|---|---
 张三|李四|王五
-```
+
+```markdown
 表头|表头|表头
 --|---|---
 张三|李四|王五
 ```
-## 十、数学公式
+## Math
+
 $$\frac{x_1^2+x_2^2}{3}$$
 $$\sum_{k=1}^n\frac{1}{k}$$
 $$\int_a^b f(x)dx$$
 $$E=mc^2$$
 
-```
+```markdown
 $$\frac{x_1^2+x_2^2}{3}$$
 $$\sum_{k=1}^n\frac{1}{k}$$
 $$\int_a^b f(x)dx$$
 $$E=mc^2$$
 ```
-## 十一、转义
-可转义的有：
+## Escaping Backticks 
+
+```markdown
+\\ 
+\` 
+\* 
+\_ 
+\{} 
+\[] 
+\() 
+\# 
+\+ 
+\- 
+\. 
+\! 
 ```
-\\ 反斜杠
-\` 反引号
-\* 星号
-\_ 下划线
-\{} 大括号
-\[] 中括号
-\() 小括号
-\# 井号
-\+ 加号
-\- 减号
-\. 英文句号
-\! 感叹号
+##  URLs and Email Addresses
+
+```markdown
+<https://meng05.github.io>
+
+<zhangsan@example.com>
+```
+The rended output looks like this:
+
+<https://meng05.github.io>
+
+<zhangsan@example.com>
+
+## 7. Adding Title and Formatting Links
+
+This is my personal website **[屋顶上的老斑鸠](https://meng05.github.io/)**
+This is about *[Turkey Vulture](https://meng05.github.io/2020/02/17/Turkey-Vulture/)*
+
+```markdown
+This is my personal website **[屋顶上的老斑鸠](https://meng05.github.io/)**
+This is about *[Turkey Vulture](https://meng05.github.io/2020/02/17/Turkey-Vulture/)*
 ```
 
+## Reference-sytle Links
+?
 
+
+## Blockquotes
+
+Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs.
+
+>Tomorrow is another day!
+>
+>Today is a good day!
+
+```markdown
+>Tomorrow is another day!
+>
+>Today is a good day!
+```
+
+Nested Blockquotes:
+> Tomorrow is another day!
+>
+>> Today is a good day!
+
+```markdown
+> Tomorrow is another day!
+>
+>> Today is a good day!
+```
 
 ## References:
-[TMaize Blog - 主题预览](http://blog.tmaize.net/posts/2015/01/01/%E4%B8%BB%E9%A2%98%E9%A2%84%E8%A7%88.html)
 
+<https://www.markdownguide.org/basic-syntax/#links>
