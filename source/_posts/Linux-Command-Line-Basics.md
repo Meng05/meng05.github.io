@@ -177,7 +177,7 @@ tar -xvf all-fruit-06-26-20.tar.gz
 tar -xvf all-fruit-06-26-20.tar.bz2
 ```
 
-### List Content of tar Archive File:
+#### List Content of tar Archive File:
 
 To list the contents of tar archive file, just run the following command with option <font color=red>t</font> (list content). 
 ```bash
@@ -186,7 +186,7 @@ tar -tvf all-fruit-06-26-20.tar.gz
 tar -tvf all-fruit-06-26-20.tar.bz2
 ```
 
-### zip and unzip
+#### zip and unzip
 zip: to compress files into a zip archive
 unzip: to extract files from a zip archive.
 
@@ -213,7 +213,7 @@ chmod 744 myCV.txt
 4(100):r--  Other
 
 
-References:
+### References:
 [Learn basic commands for Linux, a free and open-source operating system that you can make changes to and redistribute.](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners)
 
 [Learn important and helpful commands and programs often executed by intermediate Linux users.](https://maker.pro/linux/tutorial/intermediate-linux-commands)
