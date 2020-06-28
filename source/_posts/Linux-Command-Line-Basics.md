@@ -19,7 +19,7 @@ du -d 0 -h Documents
 
 grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is case sensitive.
 
-```
+```bash
 grep "Apple" fruit.txt
 grep -i "Apple" fruit.txt #-i:case insensitive
 grep -R "Apple" ~/Documents/fruit # -R: recursive
@@ -97,7 +97,7 @@ ls Documents ABC> dirlist 2>&1 #both standard output and error are re-directed t
 
 ### 5. Piping
 
-```
+```bash
 ls -l -> temp
 sort record.txt | uniq 
 cat sample2.txt | head -7 | tail -5
@@ -106,7 +106,7 @@ ls -l | find ./ -type f -name "*.txt" -exec grep "program" {} \;
 
 ### 6. &&, ||, !, &, (), {}
 
-```
+```bash
 cp ~/Desktop/1.txt ~/1.txt && rm ~/Desktop/1.txt && echo "success" # and
 rm ~/Desktop/1.txt || echo "fail" # or
 rm ~/Desktop/1.txt || (cd ~/Desktop/;ls -a;echo "fail") #or
@@ -126,7 +126,7 @@ A=1;echo $A;( A=2; );echo $A #?
 
 ### 7. Special variable -, $\_ 
 
-```
+```bash
 #\_  在此之前执行的命令或者脚本的最后一个参数
 mkdir -p udacity-git-course/new-git-project && cd $_
 
@@ -163,7 +163,7 @@ To untar or extract a tar file, just issue following command using option<font c
 
 If you want to untar in a different directory then use option as<font color=red>-C</font>(specified directory).
 
-```
+```bash
 # Untar files in Current Directory
 tar -xvf all-fruit-06-26-20.tar
 
@@ -180,6 +180,7 @@ tar -xvf all-fruit-06-26-20.tar.bz2
 #### List Content of tar Archive File:
 
 To list the contents of tar archive file, just run the following command with option <font color=red>t</font> (list content). 
+
 ```bash
 tar -tvf all-fruit-06-26-20.tar
 tar -tvf all-fruit-06-26-20.tar.gz
@@ -190,7 +191,7 @@ tar -tvf all-fruit-06-26-20.tar.bz2
 zip: to compress files into a zip archive
 unzip: to extract files from a zip archive.
 
-```
+```bash
 # compress
 zip -r fruit.zip /dir1/dir2 #-r: Travel the directory structure recursively
 zip -q -r fruip.zip * # if we are in the directory
