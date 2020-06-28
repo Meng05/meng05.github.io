@@ -23,5 +23,6 @@ ln -s /path/to/dotfiles/.vimrc ~/.vimrc
 # push to remote
 git push origin master
 ```
-#### References:
+
+References:
 Some tutorials : [Guide to dotfiles on Github](https://dotfiles.github.io/)
