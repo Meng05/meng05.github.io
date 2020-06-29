@@ -175,7 +175,7 @@ The rended output looks like this:
 
 <zhangsan@example.com>
 
-## 7. Adding Title and Formatting Links
+## Adding Title and Formatting Links
 
 This is my personal website **[屋顶上的老斑鸠](https://meng05.github.io/)**
 This is about *[Turkey Vulture](https://meng05.github.io/2020/02/17/Turkey-Vulture/)*

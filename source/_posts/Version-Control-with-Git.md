@@ -130,6 +130,12 @@ git revert  # Create a new commit that undo a specific commit
 git reset  # Be careful!
 # Before resetting, you can create a backup branch on the most-recent commit
 git branch backup
+
+# restore file to status before modified(deleted)
+git checkout -- filename
+git checkout -- .
+# deleted newly created files(untracked)
+git clean -i -d # Becareful! -i:interactive
 ```
 ### Relative Commit  References
 - HEAD^, HEAD^^, HEAD^^^, HEAD^^2
