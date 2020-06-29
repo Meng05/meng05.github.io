@@ -30,14 +30,14 @@ type: "picture"
 
 ## Italics, Bold
 
-_斜体_
-**粗体**
-~~删除线~~
+_Hello_
+**Hello**
+~~Hello~~
 
 ```
-_斜体_
-**粗体**
-~~删除线~~
+_Hello_
+**Hello**
+~~Hello~~
 ```
 
 <!--more-->
@@ -93,45 +93,45 @@ for (i=1; i<=9; i++)
 
 ## Lists
 
-### unordered
-- 项目1
-  -项目1.1(缩进2空格)
-  - 项目1.2
-- 项目2
-- 项目3
+### unordered List
+- line1
+  -line1.1(2 blank space)
+  - line1.2
+- line2
+- line3
 
 ```markdown
-- 项目1
-  -项目1.1(缩进2空格)
-  - 项目1.2
-- 项目2
-- 项目3
+- line1
+  -line1.1(2 blank space)
+  - line1.2
+- line2
+- line3
 ```
 
-### Ordered
-1. 项目1
-   1.1 项目1.1 （缩进3空格）
-   1.2 项目1.2
-2. 项目2
-3. 项目3
+### Ordered List
+1. line1
+   1.1 line1.1 （3 blank space）
+   1.2 line1.2
+2. line2
+3. line3
 
 ```markdown
-1. 项目1
-   1.1 项目1.1 （缩进3空格）
-   1.2 项目1.2
-2. 项目2
-3. 项目3
+1. line1
+   1.1 line1.1 （3 blank space）
+   1.2 line1.2
+2. line2
+3. line3
 ```
 ## Table
 
-表头|表头|表头
+colname|colname|colname
 --|---|---
-张三|李四|王五
+Lucy|15|apple
 
 ```markdown
-表头|表头|表头
+colname|colname|colname
 --|---|---
-张三|李四|王五
+Lucy|15|apple
 ```
 ## Math
 

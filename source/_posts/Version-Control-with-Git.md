@@ -123,7 +123,7 @@ How to solve merge conflicts?
 The area where a pair of conflicting changes happened is marked with markers <<<<<<<, =======, and >>>>>>>. The part before the ======= is typically your side, and the part afterwards is typically their side.  ||||||| marker is followed by the original text.
 
 ## Undoing Changes
-```
+```bash
 # Update last commit message；reword: working dir 做了改动之后想与上次提交的commit合并
 git commit --amend
 git revert  # Create a new commit that undo a specific commit
@@ -134,7 +134,7 @@ git branch backup
 # restore file to status before modified(deleted)
 git checkout -- filename
 git checkout -- .
-# deleted newly created files(untracked)
+# delete newly created files(untracked)
 git clean -i -d # Becareful! -i:interactive
 ```
 ### Relative Commit  References
