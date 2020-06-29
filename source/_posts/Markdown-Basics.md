@@ -48,22 +48,9 @@ _Hello_
 ![alt text](http://path/to/img.jpg "Title")
 <img src="http://path/to/img.jpg" alt="alt text" title="Title" />
 ```
-Group Pictures:
-{% gp 3-1 %}
-<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
-<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
-<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
-{% endgp %}
 
+![This is a test Picture](https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg "Moon")
 
-```markdown
-<% gp 3-1 %>
-<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
-<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
-<img width=99.75% src=https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg />
-<% endgp %>
-
-```
 Linking Images
 
 ```markdown
