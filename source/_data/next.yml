@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 屋顶上的老斑鸠 
+title: 屋上春鸠
 subtitle: 
-description: Personal Website 
+description: Personal Website
 keyword:  
-author: 屋顶上的老斑鸠 
+author: 屋上春鸠 
 language: zh-CN
 timezone: ''
 
@@ -140,6 +140,15 @@ override: false
 # See: https://theme-next.org/docs/getting-started/
 # ---------------------------------------------------------------
 
+favicon:
+  #small: /images/favicon-16x16-next.png
+  medium: /images/favicon.ico
+  #apple_touch_icon: /images/apple-touch-icon-next.png
+  #safari_pinned_tab: /images/logo.svg
+  #android_manifest: /images/manifest.json
+  #ms_browserconfig: /images/browserconfig.xml
+
+
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
   since: 2019
@@ -242,7 +251,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /uploads/logo-dove-black.jpg
+  url: /images/avatar-swallow.png
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
