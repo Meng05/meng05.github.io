@@ -114,7 +114,12 @@ symbols_count_time:
   total_symbols: true
   total_time: true
 
-
+# emoji:
+emoji:
+  enable: true
+  className: github-emoji
+  styles:
+    customEmojis:
 
 
 # ---------------------------------------------------------------
