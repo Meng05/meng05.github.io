@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 屋顶上的老斑鸠 
+title:  
 subtitle: 
-description: Personal Website 
+description:  
 keyword:  
-author: 屋顶上的老斑鸠 
+author:
 language: zh-CN
 timezone: ''
 
@@ -99,7 +99,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:Meng05/meng05.github.io.git
+  repo: git@github.com:swallowblack/swallowblack.github.io.git
   branch: master
 
 search:
