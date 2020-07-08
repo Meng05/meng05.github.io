@@ -12,7 +12,7 @@ categories:
 “cardinal” 原义“重要的”，后指罗马天主教的高层主教，也指主教所穿红色、鲜亮的袍子。
 
 {% gp 3-1 %}
-<img width="99%" src="https://i.loli.net/2020/06/27/kQsVwZBdJqivuE5.jpg" />
-<img width="99%" src="https://i.loli.net/2020/06/27/nPtvHBgfILkOXKa.jpg" />
-<img width="99%" src="https://i.loli.net/2020/06/27/d3i9Wvb8JLDSN6y.jpg" />
+<img src="https://i.loli.net/2020/06/27/kQsVwZBdJqivuE5.jpg" />
+<img src="https://i.loli.net/2020/06/27/nPtvHBgfILkOXKa.jpg" />
+<img src="https://i.loli.net/2020/06/27/d3i9Wvb8JLDSN6y.jpg" />
 {% endgp %}

@@ -13,9 +13,9 @@ categories:
 
 
 {% gp 3-1 %}
-<img width=99% src="https://i.loli.net/2020/06/27/asETY3eqiPzdFJZ.jpg" >
-<img width=99% src="https://i.loli.net/2020/06/27/l2RtqzdWaYDyGOj.jpg" >
-<img width=99% src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" >
+<img src="https://i.loli.net/2020/06/27/asETY3eqiPzdFJZ.jpg" >
+<img src="https://i.loli.net/2020/06/27/l2RtqzdWaYDyGOj.jpg" >
+<img src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" >
 {% endgp %}
 
 

@@ -14,8 +14,8 @@ categories: 闲情偶寄
 离家多年，小镇上自然环境远不如从前，老家的燕子可能也不多见了。这里偶尔能遇见，可惜燕子动作太快，很难拍摄到它们，只有这张傍晚天色太暗了的剪影，附带一张刚才提到的红翅黑鹂充个数。
 
 {% gp 2-2 %}
-<img width=99% src=https://i.loli.net/2020/07/02/fzIWpjlkv4QrRS7.jpg title= "Swallow" /> 
-<img width=99% src=https://i.loli.net/2020/07/02/Bw6igG1YsO8myEU.jpg title="Red-winged Blackbird" />
+<img src=https://i.loli.net/2020/07/02/fzIWpjlkv4QrRS7.jpg title= "Swallow" /> 
+<img src=https://i.loli.net/2020/07/02/Bw6igG1YsO8myEU.jpg title="Red-winged Blackbird" />
 {% endgp %}
 
 
