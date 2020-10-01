@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Markdown Basics - Meng-Z</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:title" content="Markdown Basics" />
+<meta property="og:description" content="Headers
+h3
+h4
+h5
+
+
+1
+2
+3
+
+
+### h3
+#### h4
+##### h5
+
+
+Horizontal rules
+
+
+
+1
+
+
+---
+
+
+Italics, Bold
+Hello
+Hello
+Hello
+
+
+1
+2
+3
+
+
+_Hello_
+**Hello**
+~~Hello~~
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://swallowblack.github.io/markdown-basics/" />
+<meta property="og:image" content="https://swallowblack.github.io/logo.png"/>
+<meta property="article:published_time" content="2019-07-15T09:53:50-04:00" />
+<meta property="article:modified_time" content="2019-07-15T09:53:50-04:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://swallowblack.github.io/logo.png"/>
+
+<meta name="twitter:title" content="Markdown Basics"/>
+<meta name="twitter:description" content="Headers
+h3
+h4
+h5
+
+
+1
+2
+3
+
+
+### h3
+#### h4
+##### h5
+
+
+Horizontal rules
+
+
+
+1
+
+
+---
+
+
+Italics, Bold
+Hello
+Hello
+Hello
+
+
+1
+2
+3
+
+
+_Hello_
+**Hello**
+~~Hello~~
+
+
+"/>
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://swallowblack.github.io/markdown-basics/" /><link rel="next" href="https://swallowblack.github.io/linux-command-line-basics/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Markdown Basics",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/swallowblack.github.io\/markdown-basics\/"
+        },"genre": "posts","keywords": "markdown","wordcount":  317 ,
+        "url": "https:\/\/swallowblack.github.io\/markdown-basics\/","datePublished": "2019-07-15T09:53:50-04:00","dateModified": "2019-07-15T09:53:50-04:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "xxxx"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Meng-Z"></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Meng-Z"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Markdown Basics</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>xxxx</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tech-doc/"><i class="far fa-folder fa-fw"></i>tech doc</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2019-07-15">2019-07-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 317 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#headers">Headers</a>
+      <ul>
+        <li><a href="#h3">h3</a>
+          <ul>
+            <li><a href="#h4">h4</a>
+              <ul>
+                <li><a href="#h5">h5</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#horizontal-rules">Horizontal rules</a></li>
+    <li><a href="#italics-bold">Italics, Bold</a></li>
+    <li><a href="#image">Image</a></li>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#lists">Lists</a>
+      <ul>
+        <li><a href="#unordered-list">unordered List</a></li>
+        <li><a href="#ordered-list">Ordered List</a></li>
+      </ul>
+    </li>
+    <li><a href="#table">Table</a></li>
+    <li><a href="#math">Math</a></li>
+    <li><a href="#escaping-backticks">Escaping Backticks</a></li>
+    <li><a href="#urls-and-email-addresses">URLs and Email Addresses</a></li>
+    <li><a href="#adding-title-and-formatting-links">Adding Title and Formatting Links</a></li>
+    <li><a href="#reference-sytle-links">Reference-sytle Links</a></li>
+    <li><a href="#blockquotes">Blockquotes</a></li>
+    <li><a href="#references">References:</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="headers">Headers</h2>
+<h3 id="h3">h3</h3>
+<h4 id="h4">h4</h4>
+<h5 id="h5">h5</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">### h3
+#### h4
+##### h5
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="horizontal-rules">Horizontal rules</h2>
+<hr>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">---
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="italics-bold">Italics, Bold</h2>
+<p><em>Hello</em>
+<strong>Hello</strong>
+<del>Hello</del></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">_Hello_
+**Hello**
+~~Hello~~
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="image">Image</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">![<span class="nt">This is a test Picture</span>](<span class="na">https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg &#34;Moon&#34;</span>)
+</code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" title="This is a test Picture" data-thumbnail="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" data-sub-html="<h2>Moon</h2><p>This is a test Picture</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg"
+            data-srcset="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg, https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg 1.5x, https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg 2x"
+            data-sizes="auto"
+            alt="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" />
+    </a><figcaption class="image-caption">Moon</figcaption>
+    </figure></p>
+<p>Linking Images</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">[<span class="nt">&lt;img width= 30% src=https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg /&gt;</span>](<span class="na">https://swallowblack.github.io/2020/03/31/osprey-back/</span>)
+</code></pre></td></tr></table>
+</div>
+</div><p><a href="https://swallowblack.github.io/2020/03/31/osprey-back/" target="_blank" rel="noopener noreffer"><img width= 30% src=https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg /></a></p>
+<h2 id="code">Code</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+<span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;=</span><span class="mi">9</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">i</span><span class="o">*</span><span class="n">i</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">```cpp
+int i;
+for (i=1; i&lt;=9; i++)
+{
+    cout &lt;&lt; i*i &lt;&lt; endl;
+}
+```
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="lists">Lists</h2>
+<h3 id="unordered-list">unordered List</h3>
+<ul>
+<li>line1
+-line1.1(2 blank space)
+<ul>
+<li>line1.2</li>
+</ul>
+</li>
+<li>line2</li>
+<li>line3</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">-</span> line1
+  -line1.1(2 blank space)
+  <span class="k">-</span> line1.2
+<span class="k">-</span> line2
+<span class="k">-</span> line3
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="ordered-list">Ordered List</h3>
+<ol>
+<li>line1
+1.1 line1.1 （3 blank space）
+1.2 line1.2</li>
+<li>line2</li>
+<li>line3</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">1.</span> line1
+   1.1 line1.1 （3 blank space）
+   1.2 line1.2
+<span class="k">2.</span> line2
+<span class="k">3.</span> line3
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="table">Table</h2>
+<table>
+<thead>
+<tr>
+<th>colname</th>
+<th>colname</th>
+<th>colname</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lucy</td>
+<td>15</td>
+<td>apple</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">colname|colname|colname
+--|---|---
+Lucy|15|apple
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="math">Math</h2>
+<p>$$\frac{x_1^2+x_2^2}{3}$$
+$$\sum_{k=1}^n\frac{1}{k}$$
+$$\int_a^b f(x)dx$$
+$$E=mc^2$$</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">$$\frac{x_1^2+x_2^2}{3}$$
+$$\sum_{k=1}^n\frac{1}{k}$$
+$$\int_a^b f(x)dx$$
+$$E=mc^2$$
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="escaping-backticks">Escaping Backticks</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">\\ 
+\` 
+\* 
+\_ 
+\{} 
+\[] 
+\() 
+\# 
+\+ 
+\- 
+\. 
+\! 
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="urls-and-email-addresses">URLs and Email Addresses</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="p">&lt;</span><span class="nt">https:</span><span class="err">//</span><span class="na">swallowblack</span><span class="err">.</span><span class="na">github</span><span class="err">.</span><span class="na">io</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="nt">zhangsan</span><span class="err">@</span><span class="na">example</span><span class="err">.</span><span class="na">com</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>The rended output looks like this:</p>
+<p><a href="https://swallowblack.github.io">https://swallowblack.github.io</a></p>
+<p><a href="mailto:zhangsan@example.com">zhangsan@example.com</a></p>
+<h2 id="adding-title-and-formatting-links">Adding Title and Formatting Links</h2>
+<p>This is my personal website <strong><a href="https://swallowblack.github.io/" target="_blank" rel="noopener noreffer">SwallowBlack</a></strong>
+This is about <em><a href="https://swallowblack.github.io/2020/02/17/Turkey-Vulture/" target="_blank" rel="noopener noreffer">Turkey Vulture</a></em></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">This is my personal website <span class="gs">**[SwallowBlack](https://swallowblack.github.io/)**</span>
+This is about <span class="ge">*[Turkey Vulture](https://swallowblack.github.io/2020/02/17/Turkey-Vulture/)*</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="reference-sytle-links">Reference-sytle Links</h2>
+<p>?</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>Blockquotes can contain multiple paragraphs. Add a &gt; on the blank lines between the paragraphs.</p>
+<blockquote>
+<p>Tomorrow is another day!</p>
+<p>Today is a good day!</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">&gt;Tomorrow is another day!
+<span class="k">&gt;
+</span><span class="k"></span><span class="ge">&gt;Today is a good day!
+</span></code></pre></td></tr></table>
+</div>
+</div><p>Nested Blockquotes:</p>
+<blockquote>
+<p>Tomorrow is another day!</p>
+<blockquote>
+<p>Today is a good day!</p>
+</blockquote>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">&gt; </span><span class="ge">Tomorrow is another day!
+</span><span class="ge"></span><span class="k">&gt;
+</span><span class="k"></span><span class="ge">&gt;&gt; Today is a good day!
+</span></code></pre></td></tr></table>
+</div>
+</div><h2 id="references">References:</h2>
+<p><a href="https://www.markdownguide.org/basic-syntax/#links">https://www.markdownguide.org/basic-syntax/#links</a></p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2019-07-15</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/markdown-basics/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://swallowblack.github.io/markdown-basics/" data-title="Markdown Basics" data-via="xxxx" data-hashtags="markdown"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://swallowblack.github.io/markdown-basics/" data-hashtag="markdown"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://swallowblack.github.io/markdown-basics/" data-title="Markdown Basics" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://swallowblack.github.io/markdown-basics/" data-title="Markdown Basics"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://swallowblack.github.io/markdown-basics/" data-title="Markdown Basics"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://swallowblack.github.io/markdown-basics/" data-title="Markdown Basics" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://swallowblack.github.io/markdown-basics/" data-title="Markdown Basics" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://swallowblack.github.io/markdown-basics/" data-title="Markdown Basics"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/markdown/">markdown</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/linux-command-line-basics/" class="next" rel="next" title="Basic Linux Commands">Basic Linux Commands<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.75.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

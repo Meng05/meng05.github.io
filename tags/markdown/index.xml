@@ -5,27 +5,52 @@
         <description>markdown - 标签 - Meng-Z</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 15 Jul 2019 09:53:50 -0400</lastBuildDate><atom:link href="https://swallowblack.github.io/tags/markdown/" rel="self" type="application/rss+xml" /><item>
     <title>Markdown Basics</title>
-    <link>https://swallowblack.github.io/posts/markdown-basics/</link>
+    <link>https://swallowblack.github.io/markdown-basics/</link>
     <pubDate>Mon, 15 Jul 2019 09:53:50 -0400</pubDate>
     <author>作者</author>
-    <guid>https://swallowblack.github.io/posts/markdown-basics/</guid>
+    <guid>https://swallowblack.github.io/markdown-basics/</guid>
     <description><![CDATA[<h2 id="headers">Headers</h2>
 <h3 id="h3">h3</h3>
 <h4 id="h4">h4</h4>
 <h5 id="h5">h5</h5>
-<pre><code>### h3
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">### h3
 #### h4
 ##### h5
-</code></pre><h2 id="horizontal-rules">Horizontal rules</h2>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="horizontal-rules">Horizontal rules</h2>
 <hr>
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">---
-</code></pre></div><h2 id="italics-bold">Italics, Bold</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">---
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="italics-bold">Italics, Bold</h2>
 <p><em>Hello</em>
 <strong>Hello</strong>
 <del>Hello</del></p>
-<pre><code>_Hello_
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">_Hello_
 **Hello**
 ~~Hello~~
-</code></pre>]]></description>
+</code></pre></td></tr></table>
+</div>
+</div>]]></description>
 </item></channel>
 </rss>
