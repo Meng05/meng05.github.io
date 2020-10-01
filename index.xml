@@ -21,6 +21,13 @@ This is my first post for test.]]></description>
     <guid>https://swallowblack.github.io/test/</guid>
     <description><![CDATA[Hello, Welcome!]]></description>
 </item><item>
+    <title>鱼鹰</title>
+    <link>https://swallowblack.github.io/osprey-back/</link>
+    <pubDate>Tue, 31 Mar 2020 20:58:06 -0400</pubDate>
+    <author>作者</author>
+    <guid>https://swallowblack.github.io/osprey-back/</guid>
+    <description><![CDATA[<p>  疫情当中，小城目前官方数据还没有大规模的感染。因为平时出门也不会见到很多人，除非公园里有活动的时候，于是傍晚还是走去小区后面公园里散步了。人数和平常差不多，草坪上有一个人在遛狗，篮球场上还是有三四个人在打球，路边有一个人跑步。天气微冷，看到棒球场上去年冬天离开的那对鱼鹰（Osprey）又回来了，在灯柱上警惕地坐着。有一只不时会飞起来，盘旋两圈。前年刚看到它们的时候还很有些担心灯的温度会烫伤它们，差点儿给小城警察打电话。后来发现这个巢的竞争很激烈，中间发生过多起争巢的打斗。有一次竟看到五六只鱼鹰争抢这个位置，但凡一只鹰站到巢上，马上就会有别的鹰俯冲下来，死命的抓住它往下抛。接近冬天它们快要离开时，甚至乌鸦也敢结伙过来骚扰。鱼鹰走后，乌鸦便在巢里捡拾剩余的食物。</p>]]></description>
+</item><item>
     <title>Create a Repo to Track Your Computer&#39;s Settings</title>
     <link>https://swallowblack.github.io/track-your-computer-settings/</link>
     <pubDate>Mon, 17 Feb 2020 21:14:31 -0400</pubDate>
@@ -74,6 +81,17 @@ git config --global core.editor <span class="s2">&#34;mvim -f&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div>]]></description>
+</item><item>
+    <title>野鸭</title>
+    <link>https://swallowblack.github.io/mallard/</link>
+    <pubDate>Mon, 03 Feb 2020 15:33:21 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://swallowblack.github.io/mallard/</guid>
+    <description><![CDATA[<p>今天看到野鸭回来了.</p>
+<p>诗经《关雎》中有“关关雎鸠，在河之洲。窈窕淑女，君子好逑。” 这当中的雎鸠，有人认为是鱼鹰（见本站中<a href="https://meng05.github.io/osprey-back/" target="_blank" rel="noopener noreffer">Osprey篇</a>）。</p>
+<blockquote>
+<p>雎鸠：毛传：“雎鸠，王雎也。”《尔雅·释鸟》：“雎鸠，王鴡（鴡=雎）。” 郭璞(pú）注：“雕类，今江东呼之为鹗，好在江渚山边食鱼。”《禽经》：“王雎，雎鸠，鱼鹰也。”《现代汉语词典》：“鹗，鸟名，背部褐色，头、颈和腹部白色。性凶猛。常在树上或岩石上筑巢，常在水面上飞翔，吃鱼类。通称鱼鹰。”</p>
+</blockquote>]]></description>
 </item><item>
     <title>Python RegEx Basics</title>
     <link>https://swallowblack.github.io/python-regex-basics/</link>
