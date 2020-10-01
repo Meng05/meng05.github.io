@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Basic Linux Commands - Meng-Z</title><meta name="Description" content=""><meta property="og:title" content="Basic Linux Commands" />
+<meta property="og:description" content="1. du &ndash; display disk usage statistics
+du -d 1 -h Documents # -d:depth -h:&#34;human-readable&#34;
+du -d 0 -h Documents
+2. grep &ndash; file pattern searcher
+grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is case sensitive.
+grep &#34;Apple&#34; fruit.txt
+grep -i &#34;Apple&#34; fruit.txt #-i:case insensitive
+grep -R &#34;Apple&#34; ~/Documents/fruit # -R: recursive
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/linux-command-line-basics/" />
+<meta property="article:published_time" content="2020-01-23T19:06:46-04:00" />
+<meta property="article:modified_time" content="2020-01-23T19:06:46-04:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Basic Linux Commands"/>
+<meta name="twitter:description" content="1. du &ndash; display disk usage statistics
+du -d 1 -h Documents # -d:depth -h:&#34;human-readable&#34;
+du -d 0 -h Documents
+2. grep &ndash; file pattern searcher
+grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is case sensitive.
+grep &#34;Apple&#34; fruit.txt
+grep -i &#34;Apple&#34; fruit.txt #-i:case insensitive
+grep -R &#34;Apple&#34; ~/Documents/fruit # -R: recursive
+
+"/>
+<meta name="application-name" content="Meng-Z">
+<meta name="apple-mobile-web-app-title" content="Meng-Z"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/linux-command-line-basics/" /><link rel="prev" href="http://example.org/posts/markdown-basics/" /><link rel="next" href="http://example.org/posts/python-regex-basics/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Basic Linux Commands",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/posts\/linux-command-line-basics\/"
+        },"genre": "posts","keywords": "linux","wordcount":  938 ,
+        "url": "http:\/\/example.org\/posts\/linux-command-line-basics\/","datePublished": "2020-01-23T19:06:46-04:00","dateModified": "2020-01-23T19:06:46-04:00","publisher": {
+            "@type": "Organization",
+            "name": "作者"},"author": {
+                "@type": "Person",
+                "name": "作者"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Meng-Z">Meng-Z</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Meng-Z">Meng-Z</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Basic Linux Commands</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>作者</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tech-doc/"><i class="far fa-folder fa-fw"></i>tech doc</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-01-23">2020-01-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 938 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-du----display-disk-usage-statistics">1. du &ndash; display disk usage statistics</a></li>
+        <li><a href="#2-grep----file-pattern-searcher">2. grep &ndash; file pattern searcher</a></li>
+        <li><a href="#3-find----walk-a-file-hierarchy">3. find &ndash; walk a file hierarchy</a></li>
+        <li><a href="#4-redirect">4. Redirect</a></li>
+        <li><a href="#5-piping">5. Piping</a></li>
+        <li><a href="#6-----">6. &amp;&amp;, ||, !, &amp;, (),</a></li>
+        <li><a href="#7-special-variable---_">7. Special variable -, $_</a></li>
+        <li><a href="#8-tar">8. tar</a></li>
+        <li><a href="#9-chmod----change-file-modes-or-access-control-lists">9. chmod &ndash; change file modes or Access Control Lists</a></li>
+        <li><a href="#references">References:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h3 id="1-du----display-disk-usage-statistics">1. du &ndash; display disk usage statistics</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">du -d <span class="m">1</span> -h Documents <span class="c1"># -d:depth -h:&#34;human-readable&#34;</span>
+du -d <span class="m">0</span> -h Documents
+</code></pre></div><h3 id="2-grep----file-pattern-searcher">2. grep &ndash; file pattern searcher</h3>
+<p>grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is case sensitive.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">grep <span class="s2">&#34;Apple&#34;</span> fruit.txt
+grep -i <span class="s2">&#34;Apple&#34;</span> fruit.txt <span class="c1">#-i:case insensitive</span>
+grep -R <span class="s2">&#34;Apple&#34;</span> ~/Documents/fruit <span class="c1"># -R: recursive</span>
+
+</code></pre></div><h4 id="using-grep--regex">Using Grep + Regex</h4>
+<p>[] Matches any one of a set(a rang with a hyphen) characters</p>
+<p>^: The pattern following it must occur at the beginning of each line.</p>
+<p>$: The pattern preceding it must occur at the end of each line.</p>
+<p>*: zero or more occurrences of the previous character</p>
+<p>.(dot): Matches any <!-- raw HTML omitted -->one<!-- raw HTML omitted --> character</p>
+<p>(dot).*: Nothing or any number of character</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">ls -l<span class="p">|</span>grep <span class="s2">&#34;.*.py</span>$<span class="s2">&#34;</span>  <span class="c1"># end of the line</span>
+grep <span class="s2">&#34;^apple&#34;</span> /home/wang/test.c <span class="c1">#begin of the line</span>
+grep <span class="s2">&#34;t[ae]mp&#34;</span> test.txt  <span class="c1">#tamp or temp</span>
+grep <span class="s2">&#34;t[a-c]mp&#34;</span> test.txt <span class="c1"># tamp,tbmp,tcmp</span>
+grep <span class="s2">&#34;tmp[0-9][a-z]&#34;</span> filename  <span class="c1">#eg. tmp07</span>
+grep <span class="s2">&#34;..ock&#34;</span> filename
+grep <span class="s2">&#34;tmp\.\[abc\]&#34;</span> filename
+grep <span class="s2">&#34;C\.T\.Cummo&#34;</span> filename <span class="c1">#C.T.Cummo</span>
+grep <span class="s2">&#34;C.*ook&#34;</span> filename <span class="c1"># Nothing or any number of characters</span>
+</code></pre></div><h3 id="3-find----walk-a-file-hierarchy">3. find &ndash; walk a file hierarchy</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># find files</span>
+find . -name <span class="s2">&#34;_config.yml&#34;</span>  
+find ./fruit -iname apple.txt <span class="c1">#case insensitive e.g. apple.txt, Apple.txt</span>
+find dir1 ! -name <span class="s2">&#34;*.py&#34;</span>
+find . -type f -empty <span class="c1"># find empty files</span>
+find /home -group Developer <span class="c1"># by group</span>
+find /home -user Lucy -iname <span class="s2">&#34;*.txt&#34;</span>
+find / -mtime <span class="m">50</span> <span class="c1"># To find all the files which are modifed 50 days back</span>
+find / -cmin -60 <span class="c1"># Find changed files in last 1 hour</span>
+find / -size +50M -size -100M <span class="c1"># Size between 50MB - 100MB</span>
+find . -size +1000000c -print <span class="c1"># file size &gt; 1MB</span>
+find ./GFG -perm <span class="m">664</span> <span class="c1">#search for file with entered permission</span>
+find /etc -type l  <span class="c1"># l:linked </span>
+<span class="c1"># find directories</span>
+find . -type d -name _posts
+find . -type d -empty 
+
+<span class="c1"># find and delete</span>
+find ./fruit -name grape.txt -exec rm -i <span class="o">{}</span> <span class="c1"># find and delete a file with confirmation</span>
+find ./ -mtime +3 -print<span class="p">|</span>xargs rm -f –r 
+<span class="c1"># find and grep</span>
+find ./ -type f -name <span class="s2">&#34;*.txt&#34;</span> -exec grep <span class="s1">&#39;Geek&#39;</span>  <span class="o">{}</span> <span class="se">\ </span><span class="c1">#search text within multiple files</span>
+find . -type f<span class="p">|</span> xargs grep <span class="s2">&#34;hostname&#34;</span> <span class="c1">#用grep命令在所有的普通文件中搜索hostname这个词</span>
+</code></pre></div><h3 id="4-redirect">4. Redirect</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">ls -al &gt; listings
+Mail -s <span class="s2">&#34;Subject&#34;</span> to-address &lt; Filename
+cat filename &gt;&gt; listings  <span class="c1"># &gt;&gt; To add more content to the existing file</span>
+
+<span class="c1"># ERROR Rediction</span>
+ls abc 2&gt;errorsfile <span class="c1">#redicting error to errorsfile</span>
+find . -name <span class="s1">&#39;my*&#39;</span> 2&gt;error.log
+ls Documents ABC&gt; dirlist 2&gt;<span class="p">&amp;</span><span class="m">1</span> <span class="c1">#both standard output and error are re-directed to dirlis</span>
+</code></pre></div><h3 id="5-piping">5. Piping</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">ls -l -&gt; temp
+sort record.txt <span class="p">|</span> uniq 
+cat sample2.txt <span class="p">|</span> head -7 <span class="p">|</span> tail -5
+ls -l <span class="p">|</span> find ./ -type f -name <span class="s2">&#34;*.txt&#34;</span> -exec grep <span class="s2">&#34;program&#34;</span> <span class="o">{}</span> <span class="se">\;</span>
+</code></pre></div><h3 id="6-----">6. &amp;&amp;, ||, !, &amp;, (),</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">cp ~/Desktop/1.txt ~/1.txt <span class="o">&amp;&amp;</span> rm ~/Desktop/1.txt <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s2">&#34;success&#34;</span> <span class="c1"># and</span>
+rm ~/Desktop/1.txt <span class="o">||</span> <span class="nb">echo</span> <span class="s2">&#34;fail&#34;</span> <span class="c1"># or</span>
+rm ~/Desktop/1.txt <span class="o">||</span> <span class="o">(</span><span class="nb">cd</span> ~/Desktop/<span class="p">;</span>ls -a<span class="p">;</span><span class="nb">echo</span> <span class="s2">&#34;fail&#34;</span><span class="o">)</span> <span class="c1">#or</span>
+
+rm -r !<span class="o">(</span>*.html<span class="o">)</span>
+
+ping ­c5 www.tecmint.com <span class="p">&amp;</span>
+apt-get update <span class="p">&amp;</span> apt-get upgrade <span class="p">&amp;</span>
+
+<span class="nb">echo</span> <span class="o">{</span>1..10<span class="o">}</span> <span class="c1"># print 1,2,...,10</span>
+<span class="nb">echo</span> <span class="o">{</span>10..2..2<span class="o">}</span> <span class="c1">#print 10,8,6,..,2</span>
+
+<span class="nv">A</span><span class="o">=</span>1<span class="p">;</span><span class="nb">echo</span> <span class="nv">$A</span><span class="p">;</span><span class="o">{</span> <span class="nv">A</span><span class="o">=</span>2<span class="p">;</span> <span class="o">}</span><span class="p">;</span><span class="nb">echo</span> <span class="nv">$A</span> <span class="c1">#?</span>
+<span class="nv">A</span><span class="o">=</span>1<span class="p">;</span><span class="nb">echo</span> <span class="nv">$A</span><span class="p">;</span><span class="o">(</span> <span class="nv">A</span><span class="o">=</span>2<span class="p">;</span> <span class="o">)</span><span class="p">;</span><span class="nb">echo</span> <span class="nv">$A</span> <span class="c1">#?</span>
+</code></pre></div><h3 id="7-special-variable---_">7. Special variable -, $_</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#\_  在此之前执行的命令或者脚本的最后一个参数</span>
+mkdir -p udacity-git-course/new-git-project <span class="o">&amp;&amp;</span> <span class="nb">cd</span> <span class="nv">$_</span>
+
+</code></pre></div><h3 id="8-tar">8. tar</h3>
+<h4 id="create-tar-archive-file">Create tar Archive File:</h4>
+<p>compress and uncompress files
+c: Create a new .tar archive file
+v: Verbosely show the .tar file progress
+f: File name type of the archive file (?)</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">tar -cvf all-fruit-06-26-20.tar  dir1/dir2
+</code></pre></div><h4 id="create-targz-tarbz2-archive-file">Create tar.gz tar.bz2 Archive File:</h4>
+<p>To create a compressed gzip archive file we use the option as<!-- raw HTML omitted -->z<!-- raw HTML omitted -->.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Note : tar.gz and tgz both are similar</span>
+tar -cvzf all-fruit-06-26-20.tar.gz dir1/dir2
+tar -cvzf all-fruit-06-26-20.tar.tgz dir1/dir2
+
+<span class="c1"># Note: tar.bz2 tar.tbz tar.tb2 are similar</span>
+tar -cvzf all-fruit-06-26-20.tar.bz2 dir1/dir2
+</code></pre></div><h4 id="untar-tar-archive-file">Untar tar Archive File:</h4>
+<p>To untar or extract a tar file, just issue following command using option<!-- raw HTML omitted -->x<!-- raw HTML omitted --> (extract).</p>
+<p>If you want to untar in a different directory then use option as<!-- raw HTML omitted -->-C<!-- raw HTML omitted -->(specified directory).</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Untar files in Current Directory</span>
+tar -xvf all-fruit-06-26-20.tar
+
+<span class="c1"># Untar files in specified Directory</span>
+tar -xvf all-fruit-06-26-20.tar -C ~/Documents/fruit
+
+<span class="c1"># Untar files in tar.gz</span>
+tar -xvf all-fruit-06-26-20.tar.gz
+
+<span class="c1"># Untar files in tar.bz2</span>
+tar -xvf all-fruit-06-26-20.tar.bz2
+</code></pre></div><h4 id="list-content-of-tar-archive-file">List Content of tar Archive File:</h4>
+<p>To list the contents of tar archive file, just run the following command with option <!-- raw HTML omitted -->t<!-- raw HTML omitted --> (list content).</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">tar -tvf all-fruit-06-26-20.tar
+tar -tvf all-fruit-06-26-20.tar.gz
+tar -tvf all-fruit-06-26-20.tar.bz2
+</code></pre></div><h4 id="zip-and-unzip">zip and unzip</h4>
+<p>zip: to compress files into a zip archive
+unzip: to extract files from a zip archive.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># compress</span>
+zip -r fruit.zip /dir1/dir2 <span class="c1">#-r: Travel the directory structure recursively</span>
+zip -q -r fruip.zip * <span class="c1"># if we are in the directory</span>
+
+<span class="c1"># uncompress</span>
+unzip file.zip -d destination_folder
+
+<span class="c1"># if the source and destination directories are the same</span>
+unzip file.zip
+</code></pre></div><h3 id="9-chmod----change-file-modes-or-access-control-lists">9. chmod &ndash; change file modes or Access Control Lists</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#sets read, write, and execute permissions for user, and sets read permission for Group and Others</span>
+chmod <span class="m">744</span> myCV.txt 
+</code></pre></div><p>7(111):rwx  user</p>
+<p>5(101):r-x  group</p>
+<p>4(100):r&ndash;  Other</p>
+<h3 id="references">References:</h3>
+<p><a href="https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners" target="_blank" rel="noopener noreffer">Learn basic commands for Linux, a free and open-source operating system that you can make changes to and redistribute.</a></p>
+<p><a href="https://maker.pro/linux/tutorial/intermediate-linux-commands" target="_blank" rel="noopener noreffer">Learn important and helpful commands and programs often executed by intermediate Linux users.</a>
+<a href="https://www.tecmint.com/18-tar-command-examples-in-linux/" target="_blank" rel="noopener noreffer">18 Tar Command Examples in Linux</a></p>
+<p><a href="https://www.cnblogs.com/skynet/archive/2010/12/25/1916873.html" target="_blank" rel="noopener noreffer">linux中强大且常用命令：find、grep by 吴秦</a></p>
+<p><a href="https://www.guru99.com/linux-redirection.html" target="_blank" rel="noopener noreffer">error redirection</a></p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2020-01-23</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/linux/">linux</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/markdown-basics/" class="prev" rel="prev" title="Markdown Basics"><i class="fas fa-angle-left fa-fw"></i>Markdown Basics</a>
+            <a href="/posts/python-regex-basics/" class="next" rel="next" title="Python RegEx Basics">Python RegEx Basics<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.75.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

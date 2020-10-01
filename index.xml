@@ -1,0 +1,116 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Meng-Z</title>
+        <link>http://example.org/</link>
+        <description>Meng-Z</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 01 Oct 2020 12:52:10 -0400</lastBuildDate>
+            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>First_post</title>
+    <link>http://example.org/posts/first_post/</link>
+    <pubDate>Thu, 01 Oct 2020 12:52:10 -0400</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/first_post/</guid>
+    <description><![CDATA[Hello, Welcome!
+This is my first post for test.]]></description>
+</item><item>
+    <title>Test</title>
+    <link>http://example.org/posts/test/</link>
+    <pubDate>Wed, 30 Sep 2020 15:42:43 -0400</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/test/</guid>
+    <description><![CDATA[Hello, Welcome!]]></description>
+</item><item>
+    <title>Create a Repo to Track Your Computer&#39;s Settings</title>
+    <link>http://example.org/posts/track-your-computer-settings/</link>
+    <pubDate>Mon, 17 Feb 2020 21:14:31 -0400</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/track-your-computer-settings/</guid>
+    <description><![CDATA[As a beginner, I manually add several dotfiles to the Repo like this.
+# Create a Repo git clone git@github.com:&lt;username&gt;/dotfiles.git cd dotfiles mv ~/.vimrc . git add .vimrc git commit -m &#34;your message&#34; # Symbolically linking files ln -s /path/to/dotfiles/.vimrc ~/.vimrc # push to remote git push origin master References: Some tutorials : Guide to dotfiles on Github]]></description>
+</item><item>
+    <title>秃鹫</title>
+    <link>http://example.org/posts/turkey-vulture/</link>
+    <pubDate>Mon, 17 Feb 2020 18:44:03 -0400</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/turkey-vulture/</guid>
+    <description><![CDATA[一天午后从窗口望见斜对面树杈上飞起数只体型很大的黑鸟。搜索知是“红头美洲鹫”，又名“火鸡秃鹫”。近期多次看到他们在附近徘徊。后来又遇到另外一]]></description>
+</item><item>
+    <title>Version Control with Git</title>
+    <link>http://example.org/posts/version-control-with-git/</link>
+    <pubDate>Sun, 16 Feb 2020 20:42:34 -0400</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/version-control-with-git/</guid>
+    <description><![CDATA[<p>Study note of the Course: <a href="https://www.udacity.com/course/version-control-with-git--ud123" target="_blank" rel="noopener noreffer">Udacity Course: Version Control with Git</a></p>
+<h2 id="what-is-version-control">What is version Control</h2>
+<p>Example: Control -Z</p>
+<p>Types of Version Control: Centralized and Distributed(e.g. Git)</p>
+<p>Terminology: SCM(Source Control Manager)/VCS(Version Control System)</p>
+<p>Git Setup and Config</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># sets up Git with your name</span>
+git config --global user.name <span class="s2">&#34;&lt;Your-Full-Name&gt;&#34;</span>
+<span class="c1"># sets up Git with your email</span>
+git config --global user.email <span class="s2">&#34;&lt;your-email-address&gt;&#34;</span>
+<span class="c1"># makes sure that Git output is colored</span>
+git config --global color.ui auto
+<span class="c1"># displays the original state in a conflict</span>
+git config --global merge.conflictstyle diff3
+git config --list
+git config --global core.editor <span class="s2">&#34;mvim -f&#34;</span>
+</code></pre></div>]]></description>
+</item><item>
+    <title>Python RegEx Basics</title>
+    <link>http://example.org/posts/python-regex-basics/</link>
+    <pubDate>Tue, 28 Jan 2020 19:39:25 -0400</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/python-regex-basics/</guid>
+    <description><![CDATA[<p>引入正则表达式模块</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">re</span>
+</code></pre></div><h3 id="一般字符">一般字符</h3>
+<p>.: 除换行符(\n)外的任意字符</p>
+<p>\: 转义字符</p>
+<p>如: \\, \.</p>
+<p>如: [au], [a-z], [A-Z], [0-9], [0-9a-z], [^ac](非ac)</p>
+<p>re.search(r&quot;r[A-Z]n&quot;, &ldquo;run&rdquo;)</p>]]></description>
+</item><item>
+    <title>Basic Linux Commands</title>
+    <link>http://example.org/posts/linux-command-line-basics/</link>
+    <pubDate>Thu, 23 Jan 2020 19:06:46 -0400</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/linux-command-line-basics/</guid>
+    <description><![CDATA[<h3 id="1-du----display-disk-usage-statistics">1. du &ndash; display disk usage statistics</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">du -d <span class="m">1</span> -h Documents <span class="c1"># -d:depth -h:&#34;human-readable&#34;</span>
+du -d <span class="m">0</span> -h Documents
+</code></pre></div><h3 id="2-grep----file-pattern-searcher">2. grep &ndash; file pattern searcher</h3>
+<p>grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is case sensitive.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">grep <span class="s2">&#34;Apple&#34;</span> fruit.txt
+grep -i <span class="s2">&#34;Apple&#34;</span> fruit.txt <span class="c1">#-i:case insensitive</span>
+grep -R <span class="s2">&#34;Apple&#34;</span> ~/Documents/fruit <span class="c1"># -R: recursive</span>
+
+</code></pre></div>]]></description>
+</item><item>
+    <title>Markdown Basics</title>
+    <link>http://example.org/posts/markdown-basics/</link>
+    <pubDate>Mon, 15 Jul 2019 09:53:50 -0400</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/markdown-basics/</guid>
+    <description><![CDATA[<h2 id="headers">Headers</h2>
+<h3 id="h3">h3</h3>
+<h4 id="h4">h4</h4>
+<h5 id="h5">h5</h5>
+<pre><code>### h3
+#### h4
+##### h5
+</code></pre><h2 id="horizontal-rules">Horizontal rules</h2>
+<hr>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">---
+</code></pre></div><h2 id="italics-bold">Italics, Bold</h2>
+<p><em>Hello</em>
+<strong>Hello</strong>
+<del>Hello</del></p>
+<pre><code>_Hello_
+**Hello**
+~~Hello~~
+</code></pre>]]></description>
+</item></channel>
+</rss>
