@@ -13,10 +13,10 @@
 1 2 3 4 5 6 7 8 9 10 11 12  # Create a Repo git clone git@github.com:&lt;username&gt;/dotfiles.git cd dotfiles mv ~/.vimrc . git add .vimrc git commit -m &#34;your message&#34; # Symbolically linking files ln -s /path/to/dotfiles/.vimrc ~/.vimrc # push to remote git push origin master   References: Some tutorials : Guide to dotfiles on Github]]></description>
 </item><item>
     <title>Version Control with Git</title>
-    <link>https://swallowblack.github.io/version-control-with-git/</link>
+    <link>https://swallowblack.github.io/version-control-basics/</link>
     <pubDate>Sun, 16 Feb 2020 20:42:34 -0400</pubDate>
     <author>作者</author>
-    <guid>https://swallowblack.github.io/version-control-with-git/</guid>
+    <guid>https://swallowblack.github.io/version-control-basics/</guid>
     <description><![CDATA[<p>Study note of the Course: <a href="https://www.udacity.com/course/version-control-with-git--ud123" target="_blank" rel="noopener noreffer">Udacity Course: Version Control with Git</a></p>
 <h2 id="what-is-version-control">What is version Control</h2>
 <p>Example: Control -Z</p>
@@ -73,10 +73,10 @@ git config --global core.editor <span class="s2">&#34;mvim -f&#34;</span>
 <p>re.search(r&quot;r[A-Z]n&quot;, &ldquo;run&rdquo;)</p>]]></description>
 </item><item>
     <title>Basic Linux Commands</title>
-    <link>https://swallowblack.github.io/linux-command-line-basics/</link>
+    <link>https://swallowblack.github.io/linux-basics/</link>
     <pubDate>Thu, 23 Jan 2020 19:06:46 -0400</pubDate>
     <author>作者</author>
-    <guid>https://swallowblack.github.io/linux-command-line-basics/</guid>
+    <guid>https://swallowblack.github.io/linux-basics/</guid>
     <description><![CDATA[<h3 id="1-du----display-disk-usage-statistics">1. du &ndash; display disk usage statistics</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
