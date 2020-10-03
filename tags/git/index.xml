@@ -17,38 +17,6 @@
     <pubDate>Sun, 16 Feb 2020 20:42:34 -0400</pubDate>
     <author>作者</author>
     <guid>https://swallowblack.github.io/version-control-basics/</guid>
-    <description><![CDATA[<p>Study note of the Course: <a href="https://www.udacity.com/course/version-control-with-git--ud123" target="_blank" rel="noopener noreffer">Udacity Course: Version Control with Git</a></p>
-<h2 id="what-is-version-control">What is version Control</h2>
-<p>Example: Control -Z</p>
-<p>Types of Version Control: Centralized and Distributed(e.g. Git)</p>
-<p>Terminology: SCM(Source Control Manager)/VCS(Version Control System)</p>
-<p>Git Setup and Config</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># sets up Git with your name</span>
-git config --global user.name <span class="s2">&#34;&lt;Your-Full-Name&gt;&#34;</span>
-<span class="c1"># sets up Git with your email</span>
-git config --global user.email <span class="s2">&#34;&lt;your-email-address&gt;&#34;</span>
-<span class="c1"># makes sure that Git output is colored</span>
-git config --global color.ui auto
-<span class="c1"># displays the original state in a conflict</span>
-git config --global merge.conflictstyle diff3
-git config --list
-git config --global core.editor <span class="s2">&#34;mvim -f&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div>]]></description>
+    <description><![CDATA[Study note of the Course: Udacity Course: Version Control with Git What is version Control Example: Control -Z Types of Version Control: Centralized and Distributed(e.g. Git) Terminology: SCM(Source Control Manager)/VCS(Version Control System) Git Setup and Config 1 2 3 4 5 6 7 8 9 10 # sets up Git with your name git config --global user.name &#34;&lt;Your-Full-Name&gt;&#34; # sets up Git with your email git config --global user.email &#34;&lt;your-email-address&gt;&#34;]]></description>
 </item></channel>
 </rss>

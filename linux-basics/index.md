@@ -20,7 +20,6 @@ grep -R "Apple" ~/Documents/fruit # -R: recursive
 
 ```
 
-<!--more-->
 
 #### Using Grep \+ Regex
 

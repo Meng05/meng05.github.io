@@ -52,39 +52,7 @@
     <pubDate>Sun, 16 Feb 2020 20:42:34 -0400</pubDate>
     <author>作者</author>
     <guid>https://swallowblack.github.io/version-control-basics/</guid>
-    <description><![CDATA[<p>Study note of the Course: <a href="https://www.udacity.com/course/version-control-with-git--ud123" target="_blank" rel="noopener noreffer">Udacity Course: Version Control with Git</a></p>
-<h2 id="what-is-version-control">What is version Control</h2>
-<p>Example: Control -Z</p>
-<p>Types of Version Control: Centralized and Distributed(e.g. Git)</p>
-<p>Terminology: SCM(Source Control Manager)/VCS(Version Control System)</p>
-<p>Git Setup and Config</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># sets up Git with your name</span>
-git config --global user.name <span class="s2">&#34;&lt;Your-Full-Name&gt;&#34;</span>
-<span class="c1"># sets up Git with your email</span>
-git config --global user.email <span class="s2">&#34;&lt;your-email-address&gt;&#34;</span>
-<span class="c1"># makes sure that Git output is colored</span>
-git config --global color.ui auto
-<span class="c1"># displays the original state in a conflict</span>
-git config --global merge.conflictstyle diff3
-git config --list
-git config --global core.editor <span class="s2">&#34;mvim -f&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div>]]></description>
+    <description><![CDATA[Study note of the Course: Udacity Course: Version Control with Git What is version Control Example: Control -Z Types of Version Control: Centralized and Distributed(e.g. Git) Terminology: SCM(Source Control Manager)/VCS(Version Control System) Git Setup and Config 1 2 3 4 5 6 7 8 9 10 # sets up Git with your name git config --global user.name &#34;&lt;Your-Full-Name&gt;&#34; # sets up Git with your email git config --global user.email &#34;&lt;your-email-address&gt;&#34;]]></description>
 </item><item>
     <title>愤怒的小鸟|Northern Cardinal</title>
     <link>https://swallowblack.github.io/northern-cardinal/</link>
@@ -105,54 +73,13 @@ git config --global core.editor <span class="s2">&#34;mvim -f&#34;</span>
     <pubDate>Tue, 28 Jan 2020 19:39:25 -0400</pubDate>
     <author>作者</author>
     <guid>https://swallowblack.github.io/python-regex-basics/</guid>
-    <description><![CDATA[<p>引入正则表达式模块</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">re</span>
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="一般字符">一般字符</h3>
-<p>.: 除换行符(\n)外的任意字符</p>
-<p>\: 转义字符</p>
-<p>如: \\, \.</p>
-<p>如: [au], [a-z], [A-Z], [0-9], [0-9a-z], [^ac](非ac)</p>
-<p>re.search(r&quot;r[A-Z]n&quot;, &ldquo;run&rdquo;)</p>]]></description>
+    <description><![CDATA[引入正则表达式模块 1 import re 一般字符 .: 除换行符(\n)外的任意字符 \: 转义字符 如: \\, \. 如: [au], [a-z], [A-Z], [0-9], [0-9a-z], [^ac](非ac) re.search(r&quot;r[A-Z]n&quot;, &ldquo;run&rdquo;) 预定义字符集 \d: 数字 [0-9] \D:]]></description>
 </item><item>
     <title>Basic Linux Commands</title>
     <link>https://swallowblack.github.io/linux-basics/</link>
     <pubDate>Thu, 23 Jan 2020 19:06:46 -0400</pubDate>
     <author>作者</author>
     <guid>https://swallowblack.github.io/linux-basics/</guid>
-    <description><![CDATA[<h3 id="1-du----display-disk-usage-statistics">1. du &ndash; display disk usage statistics</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">du -d <span class="m">1</span> -h Documents <span class="c1"># -d:depth -h:&#34;human-readable&#34;</span>
-du -d <span class="m">0</span> -h Documents
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="2-grep----file-pattern-searcher">2. grep &ndash; file pattern searcher</h3>
-<p>grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is case sensitive.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">grep <span class="s2">&#34;Apple&#34;</span> fruit.txt
-grep -i <span class="s2">&#34;Apple&#34;</span> fruit.txt <span class="c1">#-i:case insensitive</span>
-grep -R <span class="s2">&#34;Apple&#34;</span> ~/Documents/fruit <span class="c1"># -R: recursive</span>
-
-</code></pre></td></tr></table>
-</div>
-</div>]]></description>
+    <description><![CDATA[1. du &ndash; display disk usage statistics 1 2 du -d 1 -h Documents # -d:depth -h:&#34;human-readable&#34; du -d 0 -h Documents 2. grep &ndash; file pattern searcher grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is case sensitive. 1 2 3 4 grep &#34;Apple&#34;]]></description>
 </item></channel>
 </rss>

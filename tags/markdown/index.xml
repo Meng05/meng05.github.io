@@ -9,48 +9,6 @@
     <pubDate>Mon, 15 Jul 2019 09:53:50 -0400</pubDate>
     <author>作者</author>
     <guid>https://swallowblack.github.io/markdown-basics/</guid>
-    <description><![CDATA[<h2 id="headers">Headers</h2>
-<h3 id="h3">h3</h3>
-<h4 id="h4">h4</h4>
-<h5 id="h5">h5</h5>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">### h3
-#### h4
-##### h5
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="horizontal-rules">Horizontal rules</h2>
-<hr>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">---
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="italics-bold">Italics, Bold</h2>
-<p><em>Hello</em>
-<strong>Hello</strong>
-<del>Hello</del></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">_Hello_
-**Hello**
-~~Hello~~
-</code></pre></td></tr></table>
-</div>
-</div>]]></description>
+    <description><![CDATA[Headers h3 h4 h5 1 2 3 ### h3 #### h4 ##### h5 Horizontal rules 1 --- Italics, Bold Hello Hello Hello 1 2 3 _Hello_ **Hello** ~~Hello~~ Image Note: 为避免冲突，注意下面代码的&lt;前面多了一个空格，实际用是不需要。 1 2 3 {{ &lt; image]]></description>
 </item></channel>
 </rss>
