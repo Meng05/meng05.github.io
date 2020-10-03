@@ -2,16 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://swallowblack.github.io/categories/</loc><lastmod>2020-03-31T20:58:06-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://swallowblack.github.io/</loc><lastmod>2020-03-31T20:58:06-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://swallowblack.github.io/tags/blog/</loc><lastmod>2020-10-01T23:06:53-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://swallowblack.github.io/building-website-with-hugo/</loc><lastmod>2020-10-01T23:06:53-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://swallowblack.github.io/categories/</loc><lastmod>2020-10-01T23:06:53-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://swallowblack.github.io/</loc><lastmod>2020-10-01T23:06:53-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://swallowblack.github.io/posts/</loc><lastmod>2020-10-01T23:06:53-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://swallowblack.github.io/tags/</loc><lastmod>2020-10-01T23:06:53-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://swallowblack.github.io/categories/tech-doc/</loc><lastmod>2020-10-01T23:06:53-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://swallowblack.github.io/categories/nature/</loc><lastmod>2020-03-31T20:58:06-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://swallowblack.github.io/tags/ospray/</loc><lastmod>2020-03-31T20:58:06-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://swallowblack.github.io/posts/</loc><lastmod>2020-03-31T20:58:06-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://swallowblack.github.io/tags/</loc><lastmod>2020-03-31T20:58:06-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://swallowblack.github.io/osprey-back/</loc><lastmod>2020-03-31T20:58:06-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://swallowblack.github.io/track-your-computer-settings/</loc><lastmod>2020-02-17T21:14:31-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://swallowblack.github.io/tags/git/</loc><lastmod>2020-02-17T21:14:31-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://swallowblack.github.io/categories/tech-doc/</loc><lastmod>2020-02-17T21:14:31-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://swallowblack.github.io/tags/turkey-vulture/</loc><lastmod>2020-02-17T18:44:03-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://swallowblack.github.io/turkey-vulture/</loc><lastmod>2020-02-17T18:44:03-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://swallowblack.github.io/version-control-basics/</loc><lastmod>2020-02-16T20:42:34-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

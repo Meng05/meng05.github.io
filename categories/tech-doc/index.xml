@@ -3,7 +3,19 @@
         <title>tech doc - 分类 - Meng-Z</title>
         <link>https://swallowblack.github.io/categories/tech-doc/</link>
         <description>tech doc - 分类 - Meng-Z</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 17 Feb 2020 21:14:31 -0400</lastBuildDate><atom:link href="https://swallowblack.github.io/categories/tech-doc/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 01 Oct 2020 23:06:53 -0400</lastBuildDate><atom:link href="https://swallowblack.github.io/categories/tech-doc/" rel="self" type="application/rss+xml" /><item>
+    <title>Building Website With Hugo|用Hugo框架建博客网站</title>
+    <link>https://swallowblack.github.io/building-website-with-hugo/</link>
+    <pubDate>Thu, 01 Oct 2020 23:06:53 -0400</pubDate>
+    <author>作者</author>
+    <guid>https://swallowblack.github.io/building-website-with-hugo/</guid>
+    <description><![CDATA[<p>Demo: <a href="https://swallowblack.github.io/">https://swallowblack.github.io/</a></p>
+<h3 id="1-在mac上安装hugo框架">1. 在mac上安装Hugo框架</h3>
+<p>在Hugo官网下载想要的安装包：<a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener noreffer">Hugo extended version</a> (recommended).</p>
+<p></p>
+<p>按照官方指南： <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreffer">official hugo installation guide</a>  进行安装。</p>
+<p>根据自己的需要安装在电脑的相应位置，我选择了安装在 ~/bin。安装完成后记得将hugo路径添加到自己电脑的环境中（我的在.zshrc中添加路径）。</p>]]></description>
+</item><item>
     <title>Create a Repo to Track Your Computer&#39;s Settings</title>
     <link>https://swallowblack.github.io/track-your-computer-settings/</link>
     <pubDate>Mon, 17 Feb 2020 21:14:31 -0400</pubDate>

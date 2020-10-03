@@ -1,85 +1,123 @@
-# Building Website With Hugo
+# Building Website With Hugo|用Hugo框架建博客网站
 
 
 
 
-## 建站记录 Hugo framework
+Demo: https://swallowblack.github.io/
 
-https://swallowblack.github.io/
+### 1. 在mac上安装Hugo框架
 
-### 1. Install hugo on mac
-
-Follow the official hugo installation guide:
-
-https://gohugo.io/getting-started/installing/
+在Hugo官网下载想要的安装包：[Hugo extended version](https://github.com/gohugoio/hugo/releases) (recommended).
 
 
 
-Download Hugo extended version 
-
-https://github.com/gohugoio/hugo/releases
+![Screen Shot 2020-10-02 at 20.06.37](https://tva1.sinaimg.cn/large/007S8ZIlly1gjbttzrvvbj31ew086763.jpg)
 
 
 
-Install into your bin directory
+按照官方指南： [official hugo installation guide](https://gohugo.io/getting-started/installing/)  进行安装。
 
-export the hugo PATH(e.g., ~/bin) to your existing PATH
+根据自己的需要安装在电脑的相应位置，我选择了安装在 ~/bin。安装完成后记得将hugo路径添加到自己电脑的环境中（我的在.zshrc中添加路径）。
 
 <!--more-->
 
-### 2. Theme Lovelt installation and configuration
+### 2. 下载Lovelt主题文件
 
-Follow the theme LoveIt official guide:
+按照 LoveIt [official guide](https://hugoloveit.com/zh-cn/theme-documentation-basics/#5-%E6%90%9C%E7%B4%A2) 下载主题文件到自己的站点目录相应位置。
 
-https://hugoloveit.com/zh-cn/theme-documentation-basics/#5-%E6%90%9C%E7%B4%A2
+### 3. 站点基本配置
 
-### 3. 站点配置
+按照前面的 LoveIt [official guide](https://hugoloveit.com/zh-cn/theme-documentation-basics/#5-%E6%90%9C%E7%B4%A2)完成基本配置。
 
-#### 评论 （Valine）
+#### 3.1 在本地测试
 
-1. LeanCloud 注册和创建app（我选择的国际版）
+```shell
+hugo serve
+# 或者：
+# -D: buildDraft 显示标记为草稿的博文
+# --disableFastRender 可实时预览。不用此参数似乎也可以。
+# -e production 开启一些特性如评论系统等
+hugo serve -D --disableFastRender -e production
+```
 
-https://leancloud.app/
 
-2. 在站点配置文件填写相关内容
 
-将上一步得到的appID, appKey填入站点配置文件。
+#### 3.2 发布到github page
 
-#### 站内搜索 （主题默认）
+```shell
+hugo
+```
 
-此版本竟然自带搜索，很省心，只需使用主题的默认配置即可。
+执行该命令，会生成一个 `public` 目录, 包含你网站的所有静态内容和资源. 现在可以将其部署在任何 Web 服务器上。以github为例：
 
-3. menu bar
+为public文件夹关联你的github page repo
+
+```shell
+git init
+git remote add upstream https://github.com/xxxx/xxxx.github.io.git
+git add .
+git commit -m "xxxx"
+git push upstream master
+```
+
+几分钟后即可在https://xxxx.github.io/ 看到你部署好的网站。为了方便可写一脚本deploy.sh放在站点根目录下，以后每次执行此脚本即可。
+
+```shell
+#!/bin/sh
+
+# If a command fails then the deploy stops
+set -e
+
+printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+
+# Build the project.
+hugo  # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg="rebuilding site $(date)"
+if [ -n "$*" ]; then
+	msg="$*"
+fi
+git commit -m "$msg"
+
+# Push source and build repos.
+git push upstream master
+```
+
+
+
+#### 3.3 文章模板
+
+```shell
+cp themes/LoveIt/archetypes/default.md archetypes
+```
+
+
+
+#### 3.4 添加评论系统
+
+我选择的Valine，评论时不需要注册。在[LeanCloud](https://leancloud.app/) （我选择的国际版）注册和创建app用以管理评论和阅读量统计。需要在app中新建Comment，Counter类，详细步骤google，有许多参考文章。然后需要在站点配置文件valine相关配置中填写你在LeanCloud的id和key。
+
+![Screen Shot 2020-10-02 at 19.59.03](https://tva1.sinaimg.cn/large/007S8ZIlly1gjbtttbcb9j30qo0oijtz.jpg)
+
+
+
+#### 3.5 如何添加站内搜索功能
+
+此LoveIt 版本自带搜索功能，非常方便，只需使用LoveIt主题的默认配置即可。有兴趣可以自己优化。
+
+### 4. 如何在menu bar添加Github和RSS链接
+
+在站点的配置文件config.toml添加一下内容即可
 
 ```shell
 [menu]
-  [[menu.main]]
-    identifier = "posts"
-    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-    pre = ""
-    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-    post = ""
-    name = "所有文章"
-    url = "/posts/"
-    # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
-    title = ""
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "标签"
-    url = "/tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "分类"
-    url = "/categories/"
-    title = ""
-    weight = 3
   [[menu.main]]
     identifier = "github"
     pre = "<i class=\"fab fa-github fa-fw\"></i>"
@@ -98,6 +136,12 @@ https://leancloud.app/
     weight = 5
 
 ```
+
+### 5. 如何使用lightgallery
+
+尚未解，待后续
+
+
 
 
 
