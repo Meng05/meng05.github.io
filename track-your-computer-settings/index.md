@@ -1,9 +1,9 @@
 # Create a Repo to Track Your Computer's Settings
 
 
-As a beginner, I manually add several dotfiles to the Repo like this.
+As a beginner, I manually add several dotfiles to the Github repo like this.
 
-```bash
+```shell
 # Create a Repo
 git clone git@github.com:<username>/dotfiles.git
 cd dotfiles

@@ -21,7 +21,7 @@
     <pubDate>Mon, 17 Feb 2020 21:14:31 -0400</pubDate>
     <author>作者</author>
     <guid>https://swallowblack.github.io/track-your-computer-settings/</guid>
-    <description><![CDATA[As a beginner, I manually add several dotfiles to the Repo like this.
+    <description><![CDATA[As a beginner, I manually add several dotfiles to the Github repo like this.
 1 2 3 4 5 6 7 8 9 10 11 12  # Create a Repo git clone git@github.com:&lt;username&gt;/dotfiles.git cd dotfiles mv ~/.vimrc . git add .vimrc git commit -m &#34;your message&#34; # Symbolically linking files ln -s /path/to/dotfiles/.vimrc ~/.vimrc # push to remote git push origin master   References: Some tutorials : Guide to dotfiles on Github]]></description>
 </item><item>
     <title>Version Control with Git</title>

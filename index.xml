@@ -18,6 +18,13 @@
 <p>按照官方指南： <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreffer">official hugo installation guide</a>  进行安装。</p>
 <p>根据自己的需要安装在电脑的相应位置，我选择了安装在 ~/bin。安装完成后记得将hugo路径添加到自己电脑的环境中（我的在.zshrc中添加路径）。</p>]]></description>
 </item><item>
+    <title>COVID-19 疫情</title>
+    <link>https://swallowblack.github.io/covid-19/</link>
+    <pubDate>Wed, 01 Apr 2020 16:48:20 -0400</pubDate>
+    <author>作者</author>
+    <guid>https://swallowblack.github.io/covid-19/</guid>
+    <description><![CDATA[<p>  欧美疫情防控普遍效率低下，在社交媒体看到有文章从体制的差异找原因，有从国家能力、对政府信任的角度去分析，也有从社会组织学的角度去观察。就目前自己作为普通老百姓所能看到的，除去反应时机，疫情防控效率的核心在于隔离的强度。美国各个州和联邦政府一方面调集各种资源，支持医疗体系。尤其纽约州，目前在医疗物资准备方面还是让人信任的; 另一方面，为减少人群聚集， 美国经济也已经停摆数周。州长与媒体们反复强调 Social Distancing，但是始终没有办法“强制隔离”和“追踪密切接触者”。不知道这是社会的幸与不幸。</p>]]></description>
+</item><item>
     <title>鱼鹰|osprey</title>
     <link>https://swallowblack.github.io/osprey-back/</link>
     <pubDate>Tue, 31 Mar 2020 20:58:06 -0400</pubDate>
@@ -31,7 +38,7 @@
     <pubDate>Mon, 17 Feb 2020 21:14:31 -0400</pubDate>
     <author>作者</author>
     <guid>https://swallowblack.github.io/track-your-computer-settings/</guid>
-    <description><![CDATA[As a beginner, I manually add several dotfiles to the Repo like this.
+    <description><![CDATA[As a beginner, I manually add several dotfiles to the Github repo like this.
 1 2 3 4 5 6 7 8 9 10 11 12  # Create a Repo git clone git@github.com:&lt;username&gt;/dotfiles.git cd dotfiles mv ~/.vimrc . git add .vimrc git commit -m &#34;your message&#34; # Symbolically linking files ln -s /path/to/dotfiles/.vimrc ~/.vimrc # push to remote git push origin master   References: Some tutorials : Guide to dotfiles on Github]]></description>
 </item><item>
     <title>秃鹫|Turkey Vulture</title>
@@ -152,55 +159,6 @@ du -d <span class="m">0</span> -h Documents
 grep -i <span class="s2">&#34;Apple&#34;</span> fruit.txt <span class="c1">#-i:case insensitive</span>
 grep -R <span class="s2">&#34;Apple&#34;</span> ~/Documents/fruit <span class="c1"># -R: recursive</span>
 
-</code></pre></td></tr></table>
-</div>
-</div>]]></description>
-</item><item>
-    <title>Markdown Basics</title>
-    <link>https://swallowblack.github.io/markdown-basics/</link>
-    <pubDate>Mon, 15 Jul 2019 09:53:50 -0400</pubDate>
-    <author>作者</author>
-    <guid>https://swallowblack.github.io/markdown-basics/</guid>
-    <description><![CDATA[<h2 id="headers">Headers</h2>
-<h3 id="h3">h3</h3>
-<h4 id="h4">h4</h4>
-<h5 id="h5">h5</h5>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">### h3
-#### h4
-##### h5
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="horizontal-rules">Horizontal rules</h2>
-<hr>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">---
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="italics-bold">Italics, Bold</h2>
-<p><em>Hello</em>
-<strong>Hello</strong>
-<del>Hello</del></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">_Hello_
-**Hello**
-~~Hello~~
 </code></pre></td></tr></table>
 </div>
 </div>]]></description>
