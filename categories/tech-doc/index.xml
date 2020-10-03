@@ -50,6 +50,6 @@
     <pubDate>Mon, 15 Jul 2019 09:53:50 -0400</pubDate>
     <author>作者</author>
     <guid>https://swallowblack.github.io/markdown-basics/</guid>
-    <description><![CDATA[Headers h3 h4 h5 1 2 3 ### h3 #### h4 ##### h5 Horizontal rules 1 --- Italics, Bold Hello Hello Hello 1 2 3 _Hello_ **Hello** ~~Hello~~ Image Note: 为避免冲突，注意下面代码的&lt;前面多了一个空格，实际用是不需要。 1 2 3 {{ &lt; image]]></description>
+    <description><![CDATA[Headers h3 h4 h5 1 2 3 ### h3 #### h4 ##### h5 Horizontal rules 1 --- Italics, Bold Hello Hello Hello 1 2 3 _Hello_ **Hello** ~~Hello~~ Image 1 2 3 {{&lt; image src=&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg&#34; caption=&#34;wheat&#34; &gt;}} {{&lt; image src=&#34;&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg caption=&#34;sunflower&#34; &gt;}} This is a tip 此处需要用到{?}转义: {?{} =&gt; {. wheat" wheat sunflower" sunflower Linking Images 1 {{&lt; figure]]></description>
 </item></channel>
 </rss>

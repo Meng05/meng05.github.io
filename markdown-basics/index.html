@@ -6,7 +6,7 @@
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>Markdown Basics - Meng-Z</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:title" content="Markdown Basics" />
-<meta property="og:description" content="Headers h3 h4 h5 1 2 3 ### h3 #### h4 ##### h5 Horizontal rules 1 --- Italics, Bold Hello Hello Hello 1 2 3 _Hello_ **Hello** ~~Hello~~ Image Note: 为避免冲突，注意下面代码的&lt;前面多了一个空格，实际用是不需要。 1 2 3 {{ &lt; image" />
+<meta property="og:description" content="Headers h3 h4 h5 1 2 3 ### h3 #### h4 ##### h5 Horizontal rules 1 --- Italics, Bold Hello Hello Hello 1 2 3 _Hello_ **Hello** ~~Hello~~ Image 1 2 3 {?{}{&lt; image src=&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg&#34; caption=&#34;wheat&#34; &gt;}} {?{}{&lt; image src=&#34;&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg caption=&#34;sunflower&#34; &gt;}} This is a tip 此处需要用到{?}转义: {?{}?{?{}{?}} =&gt; {. wheat&#34; wheat sunflower&#34; sunflower Linking Images 1 {?{}{&lt; figure" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://swallowblack.github.io/markdown-basics/" />
 <meta property="og:image" content="https://swallowblack.github.io/logo.png"/>
@@ -16,7 +16,7 @@
 <meta name="twitter:image" content="https://swallowblack.github.io/logo.png"/>
 
 <meta name="twitter:title" content="Markdown Basics"/>
-<meta name="twitter:description" content="Headers h3 h4 h5 1 2 3 ### h3 #### h4 ##### h5 Horizontal rules 1 --- Italics, Bold Hello Hello Hello 1 2 3 _Hello_ **Hello** ~~Hello~~ Image Note: 为避免冲突，注意下面代码的&lt;前面多了一个空格，实际用是不需要。 1 2 3 {{ &lt; image"/>
+<meta name="twitter:description" content="Headers h3 h4 h5 1 2 3 ### h3 #### h4 ##### h5 Horizontal rules 1 --- Italics, Bold Hello Hello Hello 1 2 3 _Hello_ **Hello** ~~Hello~~ Image 1 2 3 {?{}{&lt; image src=&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg&#34; caption=&#34;wheat&#34; &gt;}} {?{}{&lt; image src=&#34;&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg caption=&#34;sunflower&#34; &gt;}} This is a tip 此处需要用到{?}转义: {?{}?{?{}{?}} =&gt; {. wheat&#34; wheat sunflower&#34; sunflower Linking Images 1 {?{}{&lt; figure"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/swallowblack.github.io\/markdown-basics\/"
-        },"genre": "posts","keywords": "markdown","wordcount":  377 ,
+        },"genre": "posts","keywords": "markdown","wordcount":  378 ,
         "url": "https:\/\/swallowblack.github.io\/markdown-basics\/","datePublished": "2019-07-15T09:53:50-04:00","dateModified": "2019-07-15T09:53:50-04:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -106,7 +106,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Markdown Basics</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Meng-Z</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tech-doc/"><i class="far fa-folder fa-fw"></i>tech doc</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2019-07-15">2019-07-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 377 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2019-07-15">2019-07-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 378 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/markdown-basics/" class="leancloud_visitors" data-flag-title="Markdown Basics">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -193,7 +193,6 @@
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="image">Image</h2>
-<p>Note: 为避免冲突，注意下面代码的&lt;前面多了一个空格，实际用是不需要。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -201,30 +200,38 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-Markdown" data-lang="Markdown">{{ <span class="p">&lt;</span> <span class="nt">image</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg&#34;</span> <span class="na">caption</span><span class="o">=</span><span class="s">&#34;Moon&#34;</span> <span class="p">&gt;</span>}}
+<pre class="chroma"><code class="language-Markdown" data-lang="Markdown">{{<span class="p">&lt;</span> <span class="nt">image</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg&#34;</span> <span class="na">caption</span><span class="o">=</span><span class="s">&#34;wheat&#34;</span> <span class="p">&gt;</span>}}
 
-{{ <span class="p">&lt;</span> <span class="nt">image</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmw9ep28j31900u07k9.jpg&#34;</span> <span class="na">caption</span><span class="o">=</span><span class="s">&#34;Lighthouse&#34;</span> <span class="na">src_s</span><span class="o">=</span><span class="s">&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmx0bf63j30b407emxs.jpg&#34;</span> <span class="na">src_l</span><span class="o">=</span><span class="s">&#34;https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmxx8j8fj31900u0kjl.jpg&#34;</span> <span class="p">&gt;</span>}}
+{{<span class="p">&lt;</span> <span class="nt">image</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="na">https:</span><span class="err">//</span><span class="na">tva1</span><span class="err">.</span><span class="na">sinaimg</span><span class="err">.</span><span class="na">cn</span><span class="err">/</span><span class="na">large</span><span class="err">/</span><span class="na">007S8ZIlly1gjcy2cy1asj30qo0hrgqo</span><span class="err">.</span><span class="na">jpg</span> <span class="na">caption</span><span class="o">=</span><span class="s">&#34;sunflower&#34;</span> <span class="p">&gt;</span>}}
 </code></pre></td></tr></table>
 </div>
-</div><figure><a class="lightgallery" href="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" title="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" data-thumbnail="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" data-sub-html="<h2>Moon</h2>">
+</div><div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>This is a tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">此处需要用到{?}转义: {?{} =&gt; {.</div>
+        </div>
+    </div>
+<figure><a class="lightgallery" href="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" title="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" data-thumbnail="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" data-sub-html="<h2>wheat</h2>">
         <img
             class="lazyload"
             src="/svg/loading.min.svg"
-            data-src="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg"
-            data-srcset="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg, https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg 1.5x, https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg 2x"
+            data-src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg"
+            data-srcset="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg, https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg 1.5x, https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg 2x"
             data-sizes="auto"
-            alt="https://i.loli.net/2020/02/22/e85NALZaliucnsG.jpg" />
-    </a><figcaption class="image-caption">Moon</figcaption>
+            alt="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcqft8cedj30qo0hsdh6.jpg" />
+    </a><figcaption class="image-caption">wheat</figcaption>
     </figure>
-<figure><a class="lightgallery" href="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmxx8j8fj31900u0kjl.jpg" title="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmw9ep28j31900u07k9.jpg" data-thumbnail="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmx0bf63j30b407emxs.jpg" data-sub-html="<h2>Lighthouse (image)</h2>">
+<figure><a class="lightgallery" href="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" title="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" data-thumbnail="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" data-sub-html="<h2>sunflower</h2>">
         <img
             class="lazyload"
             src="/svg/loading.min.svg"
-            data-src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmw9ep28j31900u07k9.jpg"
-            data-srcset="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmx0bf63j30b407emxs.jpg, https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmw9ep28j31900u07k9.jpg 1.5x, https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmxx8j8fj31900u0kjl.jpg 2x"
+            data-src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg"
+            data-srcset="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg, https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg 1.5x, https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg 2x"
             data-sizes="auto"
-            alt="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcmw9ep28j31900u07k9.jpg" />
-    </a><figcaption class="image-caption">Lighthouse (<code>image</code>)</figcaption>
+            alt="https://tva1.sinaimg.cn/large/007S8ZIlly1gjcy2cy1asj30qo0hrgqo.jpg" />
+    </a><figcaption class="image-caption">sunflower</figcaption>
     </figure>
 <p>Linking Images</p>
 <div class="highlight"><div class="chroma">
@@ -232,11 +239,11 @@
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-Markdown" data-lang="Markdown">{{ <span class="p">&lt;</span> <span class="nt">figure</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg&#34;</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;osprey&#34;</span> <span class="na">link</span><span class="o">=</span><span class="s">&#34;https://swallowblack.github.io/osprey-back/&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">30%</span> <span class="p">&gt;</span>}}
+<pre class="chroma"><code class="language-Markdown" data-lang="Markdown">{{<span class="p">&lt;</span> <span class="nt">figure</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg&#34;</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;osprey&#34;</span> <span class="na">link</span><span class="o">=</span><span class="s">&#34;https://swallowblack.github.io/osprey-back/&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">50%</span> <span class="p">&gt;</span>}}
 </code></pre></td></tr></table>
 </div>
 </div><figure><a href="https://swallowblack.github.io/osprey-back/">
-    <img src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width="30%"/> </a><figcaption>
+    <img src="https://i.loli.net/2020/06/27/k3puFt1SbBLzv9i.jpg" width="50%"/> </a><figcaption>
             <h4>osprey</h4>
         </figcaption>
 </figure>
@@ -409,7 +416,31 @@ $$E=mc^2$$
 \! 
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="urls-and-email-addresses">URLs and Email Addresses</h2>
+</div><p>\
+`
+*
+_
+{}
+[]
+()
+#
++
+-
+.
+!
+\
+`
+*
+_
+{}
+[]
+()
+#
++
+-
+.
+!</p>
+<h2 id="urls-and-email-addresses">URLs and Email Addresses</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
