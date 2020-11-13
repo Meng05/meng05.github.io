@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>other - 分类 - MELO米禾</title>
+        <title>other - 分类 - MELO|米禾</title>
         <link>https://melownia.github.io/categories/other/</link>
-        <description>other - 分类 - MELO米禾</description>
+        <description>other - 分类 - MELO|米禾</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2020 16:48:20 -0400</lastBuildDate><atom:link href="https://melownia.github.io/categories/other/" rel="self" type="application/rss+xml" /><item>
     <title>COVID-19 疫情</title>
     <link>https://melownia.github.io/covid-19/</link>
