@@ -3,9 +3,18 @@
         <title>MengZ&#39;s BLOG</title>
         <link>https://melownia.github.io/</link>
         <description>这是我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 01 Oct 2020 23:06:53 -0400</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 17 Jan 2021 18:21:44 -0500</lastBuildDate>
             <atom:link href="https://melownia.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>遍历文件树修改文件夹名称与权限中遇到的一些问题</title>
+    <link>https://melownia.github.io/traverse-file-tree/</link>
+    <pubDate>Sun, 17 Jan 2021 18:21:44 -0500</pubDate>
+    <author>作者</author>
+    <guid>https://melownia.github.io/traverse-file-tree/</guid>
+    <description><![CDATA[<h4 id="背景">背景：</h4>
+<p>平常用Typora做一些记录，整理的时候发现有很多文件夹权限0o777，导致在Terminal上显示背景很难看，于是打算批量更改一下。结果因为文件名包含空格和其他特殊的字符遇到了一些问题。</p>
+<p>最后发现其实简单的办法是直接使用chmod 的-R 参数达成目的, 不过解决问题的过程还是让自己对问题有了更深入的了解。在这里记录下来，或许有遇到类似问题的朋友能看到。</p>]]></description>
+</item><item>
     <title>Building Website With Hugo|用Hugo框架建博客网站</title>
     <link>https://melownia.github.io/building-website-with-hugo/</link>
     <pubDate>Thu, 01 Oct 2020 23:06:53 -0400</pubDate>
@@ -74,12 +83,5 @@
     <author>作者</author>
     <guid>https://melownia.github.io/northern-cardinal/</guid>
     <description><![CDATA[春天快到了，清晨又开始听到Cardinal的叫声了。一年前刚来这里的时候，在路边有时会看到一种全身红色长相奇特的鸟，让人想起几年前盛行的一款]]></description>
-</item><item>
-    <title>野鸭|mallard</title>
-    <link>https://melownia.github.io/mallard/</link>
-    <pubDate>Mon, 03 Feb 2020 15:33:21 -0400</pubDate>
-    <author>作者</author>
-    <guid>https://melownia.github.io/mallard/</guid>
-    <description><![CDATA[今天看到野鸭回来了. 诗经《关雎》中有“关关雎鸠，在河之洲。窈窕淑女，君子好逑。” 这当中的雎鸠，有人认为是鱼鹰（见本站中Osprey篇)。 雎鸠]]></description>
 </item></channel>
 </rss>
