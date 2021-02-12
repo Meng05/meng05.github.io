@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>covid-19 - 标签 - Monica&#39;s Blog</title>
-        <link>https://monchao.github.io/tags/covid-19/</link>
-        <description>covid-19 - 标签 - Monica&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2020 16:48:20 -0400</lastBuildDate><atom:link href="https://monchao.github.io/tags/covid-19/" rel="self" type="application/rss+xml" /><item>
+        <title>covid-19 - 标签 - Moni Blog</title>
+        <link>https://nonizhao.github.io/tags/covid-19/</link>
+        <description>covid-19 - 标签 - Moni Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2020 16:48:20 -0400</lastBuildDate><atom:link href="https://nonizhao.github.io/tags/covid-19/" rel="self" type="application/rss+xml" /><item>
     <title>COVID-19 疫情</title>
-    <link>https://monchao.github.io/covid-19/</link>
+    <link>https://nonizhao.github.io/covid-19/</link>
     <pubDate>Wed, 01 Apr 2020 16:48:20 -0400</pubDate>
     <author>作者</author>
-    <guid>https://monchao.github.io/covid-19/</guid>
+    <guid>https://nonizhao.github.io/covid-19/</guid>
     <description><![CDATA[<p>  欧美疫情防控普遍效率低下，在社交媒体看到有文章从体制的差异找原因，有从国家能力、对政府信任的角度去分析，也有从社会组织学的角度去观察。就目前自己作为普通老百姓所能看到的，除去反应时机，疫情防控效率的核心在于隔离的强度。美国各个州和联邦政府一方面调集各种资源，支持医疗体系。尤其纽约州，目前在医疗物资准备方面还是让人信任的; 另一方面，为减少人群聚集， 美国经济也已经停摆数周。州长与媒体们反复强调 Social Distancing，但是始终没有办法“强制隔离”和“追踪密切接触者”。不知道这是社会的幸与不幸。</p>]]></description>
 </item></channel>
 </rss>
