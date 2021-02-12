@@ -1,35 +1,35 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>other - 分类 - Moni Blog</title>
-        <link>https://nonizhao.github.io/categories/other/</link>
+        <link>https://monizhao.github.io/categories/other/</link>
         <description>other - 分类 - Moni Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2020 16:48:20 -0400</lastBuildDate><atom:link href="https://nonizhao.github.io/categories/other/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Apr 2020 16:48:20 -0400</lastBuildDate><atom:link href="https://monizhao.github.io/categories/other/" rel="self" type="application/rss+xml" /><item>
     <title>COVID-19 疫情</title>
-    <link>https://nonizhao.github.io/covid-19/</link>
+    <link>https://monizhao.github.io/covid-19/</link>
     <pubDate>Wed, 01 Apr 2020 16:48:20 -0400</pubDate>
     <author>作者</author>
-    <guid>https://nonizhao.github.io/covid-19/</guid>
+    <guid>https://monizhao.github.io/covid-19/</guid>
     <description><![CDATA[<p>  欧美疫情防控普遍效率低下，在社交媒体看到有文章从体制的差异找原因，有从国家能力、对政府信任的角度去分析，也有从社会组织学的角度去观察。就目前自己作为普通老百姓所能看到的，除去反应时机，疫情防控效率的核心在于隔离的强度。美国各个州和联邦政府一方面调集各种资源，支持医疗体系。尤其纽约州，目前在医疗物资准备方面还是让人信任的; 另一方面，为减少人群聚集， 美国经济也已经停摆数周。州长与媒体们反复强调 Social Distancing，但是始终没有办法“强制隔离”和“追踪密切接触者”。不知道这是社会的幸与不幸。</p>]]></description>
 </item><item>
     <title>怎么回事呀</title>
-    <link>https://nonizhao.github.io/day-and-night/</link>
+    <link>https://monizhao.github.io/day-and-night/</link>
     <pubDate>Sun, 08 Mar 2020 11:45:51 -0400</pubDate>
     <author>作者</author>
-    <guid>https://nonizhao.github.io/day-and-night/</guid>
+    <guid>https://monizhao.github.io/day-and-night/</guid>
     <description><![CDATA[今天跟家人视频，YC一上来就要求说想听“四个”故事。她会数数了，借来的三个绘本都讲完了，还差一个。她说想听故事里猫头鹰的声音。于是在 YOUTUBE 上找了]]></description>
 </item><item>
     <title>被小侄女挂电话了</title>
-    <link>https://nonizhao.github.io/yc-hangs-up-the-phone/</link>
+    <link>https://monizhao.github.io/yc-hangs-up-the-phone/</link>
     <pubDate>Mon, 17 Feb 2020 21:19:06 -0400</pubDate>
     <author>作者</author>
-    <guid>https://nonizhao.github.io/yc-hangs-up-the-phone/</guid>
+    <guid>https://monizhao.github.io/yc-hangs-up-the-phone/</guid>
     <description><![CDATA[向之前一样从图书馆借了三本绘本，预备跟家里人视频的时候给小侄女讲故事用。最近比较焦躁，有两周没有和YC视频了，这三本书在我的书包里待到图书到]]></description>
 </item><item>
     <title>模仿</title>
-    <link>https://nonizhao.github.io/duckduck/</link>
+    <link>https://monizhao.github.io/duckduck/</link>
     <pubDate>Mon, 30 Sep 2019 19:44:12 -0400</pubDate>
     <author>作者</author>
-    <guid>https://nonizhao.github.io/duckduck/</guid>
+    <guid>https://monizhao.github.io/duckduck/</guid>
     <description><![CDATA[主角：弟弟的闺女（yc） 基本情况：今年秋天刚入老家小镇上的幼儿园 上周与小侄女视频，讲完一个故事，我问她故事里提到了哪几个小动物？她说“鸭子！]]></description>
 </item></channel>
 </rss>
