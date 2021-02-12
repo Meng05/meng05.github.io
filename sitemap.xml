@@ -2,20 +2,20 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://monizhao.github.io/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://monizhao.github.io/posts/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://monizhao.github.io/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://monizhao.github.io/posts/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://monizhao.github.io/traverse-file-tree/</loc><lastmod>2021-01-24T11:24:31-05:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://monizhao.github.io/tags/blog/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://monizhao.github.io/building-website-with-hugo/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://monizhao.github.io/categories/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://monizhao.github.io/tags/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://monizhao.github.io/categories/tech-doc/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://monizhao.github.io/tags/blog/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://monizhao.github.io/building-website-with-hugo/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://monizhao.github.io/categories/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://monizhao.github.io/tags/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://monizhao.github.io/categories/tech-doc/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://monizhao.github.io/tags/covid-19/</loc><lastmod>2020-10-02T22:31:06-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://monizhao.github.io/covid-19/</loc><lastmod>2020-10-02T22:31:06-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://monizhao.github.io/categories/other/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://monizhao.github.io/categories/nature/</loc><lastmod>2020-10-03T16:11:15-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://monizhao.github.io/tags/ospray/</loc><lastmod>2020-10-03T16:11:15-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://monizhao.github.io/osprey-back/</loc><lastmod>2020-10-03T16:11:15-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://monizhao.github.io/categories/nature/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://monizhao.github.io/tags/ospray/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://monizhao.github.io/osprey-back/</loc><lastmod>2021-02-12T15:41:55-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://monizhao.github.io/tags/yc/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://monizhao.github.io/day-and-night/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://monizhao.github.io/yc-hangs-up-the-phone/</loc><lastmod>2021-02-12T11:37:13-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
